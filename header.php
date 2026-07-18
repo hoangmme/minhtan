@@ -1,37 +1,130 @@
+<?php
+/**
+ * The header for our theme
+ */
+?>
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
-<head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
+<html lang="en">
 
-	<?php wp_head(); ?>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IHC - Global Investment Holdings</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        cairo: ['Cairo', 'sans-serif'],
+                    },
+                    colors: {
+                        black: '#000000',
+                        dark: '#111111',
+                        darkGray: '#333333',
+                        mediumGray: '#555555',
+                        lightGray: '#F9F9F9',
+                        borderColor: '#E5E5E5',
+                        labelGray: 'rgba(0, 0, 0, 0.5)',
+                    },
+                    letterSpacing: {
+                        ihc: '-0.03em',
+                    },
+                    lineHeight: {
+                        ihcTitle: '1.1',
+                        ihcPara: '1.4',
+                    },
+                    maxWidth: {
+                        ihcContainer: '1400px',
+                    },
+                    spacing: {
+                        sectionMobile: '100px',
+                        sectionDesktop: '160px',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: #FFFFFF;
+            color: #111111;
+        }
+
+        /* CSS Arrow Icon */
+        .css-arrow {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-top: 2px solid currentColor;
+            border-right: 2px solid currentColor;
+            transform: rotate(45deg);
+            margin-bottom: 2px;
+            transition: transform 0.3s ease;
+        }
+
+        .css-arrow.prev {
+            transform: rotate(-135deg);
+            margin-bottom: 0;
+            margin-right: -2px;
+        }
+
+        .css-arrow.next {
+            margin-bottom: 0;
+            margin-left: -2px;
+        }
+
+        .css-arrow.down {
+            transform: rotate(135deg);
+            margin-bottom: 4px;
+        }
+
+        .slider-nav-btn:hover {
+            opacity: 0.8;
+            cursor: pointer;
+        }
+
+        /* Sharp images override */
+        img.sharp-img {
+            border-radius: 0 !important;
+            box-shadow: none !important;
+        }
+
+        /* Hover effect for lists */
+        .hover-row:hover {
+            background-color: #F9F9F9;
+        }
+    </style>
+<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
-<?php wp_body_open(); ?>
+<body class="antialiased selection:bg-dark selection:text-white" <?php body_class(); ?>>
 
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'ihcu' ); ?></a>
-
-	<header id="masthead" class="site-header">
-		<div class="container flex justify-between align-center">
-			<div class="site-logo">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-                    <!-- Static logo path from IHC -->
-					<img src="https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/46ad4e43-53a5-4a92-8576-af23fa5cb6c6" alt="<?php bloginfo( 'name' ); ?>">
-				</a>
-			</div><!-- .site-branding -->
-
-			<nav id="site-navigation" class="main-navigation">
-				<ul>
-                    <li><a href="<?php echo esc_url( home_url( '/who-we-are' ) ); ?>">Who We Are</a></li>
-                    <li><a href="<?php echo esc_url( home_url( '/what-we-do' ) ); ?>">What We Do</a></li>
-                    <li><a href="<?php echo esc_url( home_url( '/portfolio' ) ); ?>">Portfolio</a></li>
-                    <li><a href="<?php echo esc_url( home_url( '/investor-relations' ) ); ?>">Investor Relations</a></li>
-                    <li><a href="<?php echo esc_url( home_url( '/newsroom' ) ); ?>">Newsroom</a></li>
-                    <li><a href="<?php echo esc_url( home_url( '/contact' ) ); ?>">Contact</a></li>
-                </ul>
-			</nav><!-- #site-navigation -->
-		</div>
-	</header><!-- #masthead -->
+    <!-- 1. HEADER -->
+    <header class="w-full border-b border-borderColor py-6 sticky top-0 bg-white z-50">
+        <div class="max-w-ihcContainer mx-auto px-5 md:px-10 flex justify-between items-center">
+            <a href="#" class="text-3xl font-light tracking-ihc leading-none">
+                IHC<span class="text-labelGray">.</span>
+            </a>
+            <div class="flex items-center gap-8">
+                <div class="hidden md:flex gap-6 text-sm font-semibold text-dark uppercase tracking-wider">
+                    <a href="#about" class="hover:text-labelGray transition-colors">About</a>
+                    <a href="#portfolio" class="hover:text-labelGray transition-colors">Portfolio</a>
+                    <a href="#ir" class="hover:text-labelGray transition-colors">Investors</a>
+                    <a href="#news" class="hover:text-labelGray transition-colors">News</a>
+                </div>
+                <button
+                    class="text-sm font-semibold text-dark uppercase tracking-wider hover:text-labelGray transition-colors">
+                    Menu
+                </button>
+            </div>
+        </div>
+    </header>

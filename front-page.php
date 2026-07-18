@@ -1,326 +1,504 @@
 <?php
 /**
  * Template Name: Trang chủ IHC
- *
- * @package ihcu
  */
-
-get_header();
-?>
-
-<main id="primary" class="site-main">
-
-	<!-- 1. Hero Section (Video Background) -->
-	<section class="hero-video-section">
-		<div class="video-background">
-			<iframe src="https://player.vimeo.com/video/1156402689?h=d91c9cb20b&badge=0&autopause=0&player_id=0&app_id=58479&background=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-		</div>
-		<div class="hero-overlay-gradient"></div>
-		
-		<div class="container hero-video-content">
-			<h1 class="hero-main-title">Building Dynamic<br>Value Networks.</h1>
-		</div>
-
-		<div class="hero-bottom-bar container">
-			<div class="hero-ticker">
-				<iframe src="https://tools.eurolandir.com/tools/ticker/html/?companycode=ae-asmak&v=static1&lang=en-gb" width="200" height="25" frameborder="0" scrolling="no"></iframe>
-			</div>
-			<div class="hero-news-excerpt">
-				<p>Adani Enterprises and IHC Group Company IRH to form a 50:50 Joint Venture for USD 11.5 Billion Aluminium Project, Positioning Odisha in the Global Aluminium Supply Chain</p>
-			</div>
-			<div class="hero-news-thumb">
-				<img src="https://images.unsplash.com/photo-1556761175-5973dc0f32d7?q=80&w=300&auto=format&fit=crop" alt="News Thumbnail">
-			</div>
-		</div>
-		
-		<div class="hero-slider-dots">
-			<span class="dot-num">02</span>
-			<span class="dot-line"></span>
-			<span class="dot"></span>
-			<span class="dot"></span>
-			<span class="dot"></span>
-			<span class="dot"></span>
-			<span class="dot"></span>
-		</div>
-	</section>
-
-	<!-- 2. About Section (One of the world's...) -->
-	<section class="section about-hero-section">
-		<div class="container">
-			<h2 class="about-hero-title">One of the world's largest investment<br>companies</h2>
-			
-			<div class="about-grid">
-				<div class="about-col-left">
-					<p class="about-label">• Who We Are</p>
-				</div>
-				<div class="about-col-mid">
-					<p class="about-text">
-						Since its founding in 1999, IHC has become one of the largest investment companies in the world. But IHC is far more - we are a forward-thinking, proactive investment leader, creating dynamic value networks that go beyond the traditional holding company model, to represent a new generation of investors.
-					</p>
-					<a href="<?php echo esc_url( home_url( '/about' ) ); ?>" class="btn-outline">About Us &nbsp; &rsaquo;</a>
-				</div>
-				<div class="about-col-right">
-					<img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800&auto=format&fit=crop" alt="IHC Building" class="about-building-img">
-				</div>
-			</div>
-
-			<div class="stats-row">
-				<div class="stat-block">
-					<p class="stat-label">Market Capitalization</p>
-					<h3 class="stat-value">AED 855 bn</h3>
-				</div>
-				<div class="stat-block">
-					<p class="stat-label">Subsidiaries</p>
-					<h3 class="stat-value">1,300+</h3>
-				</div>
-				<div class="stat-block">
-					<p class="stat-label">JVs & Associates</p>
-					<h3 class="stat-value">85+</h3>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	
-	<!-- 3. Financial Results & MIITE -->
-	<section class="section split-section bg-white">
-		<div class="container grid grid-2 align-center">
-			<div class="split-text">
-				<h2 class="split-title">Financial Results Q1 2026</h2>
-				<div class="title-underline"></div>
-				<p>Discover how IHC's Q1 2026 results reflect dynamic value creation across industries, strengthened international partnerships, and sustainability advanced at scale.</p>
-				<a href="/q12026" class="btn-outline">Learn More &nbsp; &rsaquo;</a>
-			</div>
-			<div class="split-image">
-				<img src="https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/7ace5cc5-c37b-4c9c-a549-212300bd8135" alt="Financial Results Q1 2026">
-			</div>
-		</div>
-	</section>
-
-	<section class="section split-section bg-white">
-		<div class="container grid grid-2 align-center">
-			<div class="split-text">
-				<h2 class="split-title">IHC Delegation at Make it in the Emirates</h2>
-				<div class="title-underline"></div>
-				<p>Discover how IHC is helping shape the UAE's industrial future at Make it in the Emirates—championing innovation-driven investments and advancing a resilient, sustainable economy.</p>
-				<a href="/miite" class="btn-outline">Learn More &nbsp; &rsaquo;</a>
-			</div>
-			<div class="split-image">
-				<img src="https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/3c64f9d0-16b3-43cd-bc8d-23c084156b24" alt="Make it in the Emirates">
-			</div>
-		</div>
-	</section>
-
-<!-- 4. Our Portfolio -->
-	<section class="section">
-		<div class="container">
-			<h2 class="section-title">Our Diverse Portfolio</h2>
-			<p class="section-subtitle">Spanning across critical sectors of the economy, our portfolio is built for resilience and long-term growth.</p>
-			
-			<div class="grid grid-3">
-				<!-- Portfolio Card 1 -->
-				<a href="#" class="portfolio-card">
-					<img src="https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/c4e4d1ab-809a-426f-a316-72204e3c49e0" alt="Real Estate">
-					<div class="portfolio-overlay">
-						<h3 class="portfolio-title">Real Estate & Construction</h3>
-					</div>
-				</a>
-				
-				<!-- Portfolio Card 2 -->
-				<a href="#" class="portfolio-card">
-					<img src="https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/39e16323-f3c0-4df8-9b06-9025b84a4621" alt="Healthcare">
-					<div class="portfolio-overlay">
-						<h3 class="portfolio-title">Healthcare</h3>
-					</div>
-				</a>
-				
-				<!-- Portfolio Card 3 -->
-				<a href="#" class="portfolio-card">
-					<img src="https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/da01c133-ef68-49e9-88b9-76165f7a6f26" alt="Food & Agriculture">
-					<div class="portfolio-overlay">
-						<h3 class="portfolio-title">Food & Agriculture</h3>
-					</div>
-				</a>
-				
-				<!-- Portfolio Card 4 -->
-				<a href="#" class="portfolio-card">
-					<img src="https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/79f73d18-e6df-422d-b5eb-c38a7e5d7d88" alt="Technology">
-					<div class="portfolio-overlay">
-						<h3 class="portfolio-title">Technology</h3>
-					</div>
-				</a>
-				
-				<!-- Portfolio Card 5 -->
-				<a href="#" class="portfolio-card">
-					<img src="https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/5dc4b8ea-2d85-46aa-8bee-d8aff8c2e180" alt="Marine">
-					<div class="portfolio-overlay">
-						<h3 class="portfolio-title">Marine & Dredging</h3>
-					</div>
-				</a>
-				
-				<!-- Portfolio Card 6 -->
-				<a href="#" class="portfolio-card">
-					<img src="https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/b09fddb6-8854-491d-9d1e-2c3e323554dd" alt="Capital">
-					<div class="portfolio-overlay">
-						<h3 class="portfolio-title">Capital & Investments</h3>
-					</div>
-				</a>
-			</div>
-			
-			<div style="text-align: center; margin-top: 50px;">
-				<a href="<?php echo esc_url( home_url( '/portfolio' ) ); ?>" class="btn">Explore All Sectors</a>
-			</div>
-		</div>
-	</section>
-
-	<!-- 5. Leadership Message -->
-	<section class="section leadership-section">
-		<div class="container">
-			<div class="grid grid-2 align-center">
-				<div style="padding-right: 40px;">
-					<p class="leadership-quote">
-						"Our unwavering commitment to excellence and strategic vision continues to drive our momentum. As we expand our global footprint, we remain dedicated to creating value that transcends borders."
-					</p>
-					<p class="leadership-author">H.H. Sheikh Tahnoon bin Zayed Al Nahyan</p>
-					<p class="leadership-title">Chairman of IHC</p>
-				</div>
-				<div>
-					<img src="https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/7e0fe71d-e6b5-42dd-9a57-f46a056f682f" alt="Chairman" style="width: 100%; border-radius: 8px;">
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- 6. Latest News Section -->
-	<section class="section latest-news-section">
-		<div class="container">
-			
-			<div class="social-header">
-				<h2 class="split-title">Newsroom</h2>
-				<div class="social-nav">
-					<button class="news-prev">&lsaquo;</button>
-					<button class="news-next">&rsaquo;</button>
-				</div>
-			</div>
-			<div class="swiper swiper-is-news-room">
-				<div class="swiper-wrapper">
-				<?php
-				$args = array(
-
-					'post_type'      => 'post',
-					'posts_per_page' => 3,
-				);
-				$news_query = new WP_Query( $args );
-
-				if ( $news_query->have_posts() ) :
-					while ( $news_query->have_posts() ) :
-						$news_query->the_post();
-						?>
-						<div class="swiper-slide">
-						<article id="post-<?php the_ID(); ?>" <?php post_class('news-card'); ?>>
-							<a href="<?php the_permalink(); ?>">
-								<?php if ( has_post_thumbnail() ) : ?>
-									<?php the_post_thumbnail( 'large', array( 'class' => 'news-card-img' ) ); ?>
-								<?php else : ?>
-									<!-- Fallback image -->
-									<img src="https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/cf7660c7-f2d0-48ca-8733-bdb85abc3a00" alt="<?php the_title_attribute(); ?>" class="news-card-img">
-								<?php endif; ?>
-							</a>
-							<div class="news-card-content">
-								<span class="news-date"><?php echo get_the_date(); ?></span>
-								<h3 class="news-card-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-								<div class="news-card-excerpt">
-									<?php echo wp_trim_words( get_the_excerpt(), 20, '...' ); ?>
-								</div>
-								<a href="<?php the_permalink(); ?>" class="read-more">Read More &rarr;</a>
-							</div>
-						</article>
-						</div>
-						
-				<?php
-					endwhile;
-					wp_reset_postdata();
-				else :
-					echo '<p>No news found.</p>';
-				endif;
-				?>
-				</div>
-			</div>
-			<div style="text-align: center; margin-top: 50px;">
-				<a href="<?php echo esc_url( home_url( '/newsroom' ) ); ?>" class="btn">View All News</a>
-			</div>
-
-		</div>
-	</section>
+get_header(); ?>
 
 
-	<!-- 7. Social Media -->
-	<section class="section social-section bg-white">
-		<div class="container">
-			<div class="social-header">
-				<h2 class="split-title">Social media</h2>
-				<div class="social-nav">
-					<button class="social-prev">&lsaquo;</button>
-					<button class="social-next">&rsaquo;</button>
-				</div>
-			</div>
-			<div class="swiper swiper-social-media">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide">
-						<img src="https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/0977ba29-c2f7-44ca-b8c3-17be41baf363" alt="Social 1">
-					</div>
-					<div class="swiper-slide">
-						<img src="https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/7ace5cc5-c37b-4c9c-a549-212300bd8135" alt="Social 2">
-					</div>
-					<div class="swiper-slide">
-						<img src="https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/3c64f9d0-16b3-43cd-bc8d-23c084156b24" alt="Social 3">
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-</main><!-- #main -->
+    <!-- 2. HERO SECTION -->
+    <section class="pt-sectionMobile pb-[80px] md:pt-sectionDesktop md:pb-[120px]">
+        <div class="max-w-ihcContainer mx-auto px-5 md:px-10">
+            <div class="max-w-4xl mb-16 md:mb-24">
+                <h1 class="text-[48px] md:text-[72px] font-light leading-ihcTitle tracking-ihc text-dark mb-8">
+                    Scaling businesses.<br> Shaping the future.
+                </h1>
+                <p class="text-[24px] md:text-[28px] font-light text-mediumGray leading-ihcPara mb-10 max-w-3xl">
+                    A premier global investment holding company, driving sustainable growth and long-term value across
+                    diverse sectors.
+                </p>
+                <a href="#about"
+                    class="inline-flex items-center gap-3 px-6 py-3 border border-black/10 rounded-[100vw] text-dark bg-transparent hover:bg-black hover:text-white transition-all duration-300 text-lg">
+                    Explore Our Holdings
+                    <span class="css-arrow down"></span>
+                </a>
+            </div>
+            <div class="w-full h-[50vh] md:h-[75vh] overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop"
+                    alt="Corporate Building" class="w-full h-full object-cover sharp-img">
+            </div>
+        </div>
+    </section>
 
+    <div class="max-w-ihcContainer mx-auto px-5 md:px-10">
+        <hr class="border-borderColor">
+    </div>
 
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-	if (typeof Swiper !== 'undefined') {
-		var heroSwiper = new Swiper('.heroSwiper', {
-			loop: true,
-			autoplay: { delay: 5000, disableOnInteraction: false },
-			effect: 'fade',
-			fadeEffect: { crossFade: true }
-		});
+    <!-- 3. COMPANY OVERVIEW -->
+    <section id="about" class="py-sectionMobile md:py-sectionDesktop">
+        <div class="max-w-ihcContainer mx-auto px-5 md:px-10">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-10">
+                <div class="md:col-span-4">
+                    <h4 class="text-[14px] md:text-[16px] font-semibold text-labelGray uppercase tracking-wider">
+                        Company Overview
+                    </h4>
+                </div>
+                <div class="md:col-span-8">
+                    <h2 class="text-[36px] md:text-[56px] font-light leading-ihcTitle tracking-ihc text-dark mb-8">
+                        We deploy capital strategically to build dominant market leaders and resilient enterprises.
+                    </h2>
+                    <p class="text-[20px] md:text-[24px] font-light text-mediumGray leading-ihcPara mb-10">
+                        Founded with a vision to diversify and grow the economic landscape, our holding structure allows
+                        us to be agile operators and patient investors. We partner with exceptional management teams to
+                        unlock operational efficiencies and scale businesses globally.
+                    </p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 pt-8 border-t border-borderColor">
+                        <div>
+                            <h5 class="text-[14px] font-semibold text-dark uppercase tracking-wider mb-2">Our Vision
+                            </h5>
+                            <p class="text-mediumGray font-light text-lg">To be the most trusted and impactful
+                                investment conglomerate globally.</p>
+                        </div>
+                        <div>
+                            <h5 class="text-[14px] font-semibold text-dark uppercase tracking-wider mb-2">Our Mission
+                            </h5>
+                            <p class="text-mediumGray font-light text-lg">Delivering sustainable returns by investing in
+                                transformative industries.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		var socialSwiper = new Swiper('.swiper-social-media', {
-			slidesPerView: 2,
-			spaceBetween: 24,
-			navigation: {
-				nextEl: '.social-next',
-				prevEl: '.social-prev',
-			},
-			breakpoints: {
-				768: { slidesPerView: 3 },
-				1024: { slidesPerView: 4 }
-			}
-		});
+    <div class="max-w-ihcContainer mx-auto px-5 md:px-10">
+        <hr class="border-borderColor">
+    </div>
 
-		var newsSwiper = new Swiper('.swiper-is-news-room', {
-			slidesPerView: 1.2,
-			spaceBetween: 24,
-            navigation: {
-				nextEl: '.news-next',
-				prevEl: '.news-prev',
-			},
-			breakpoints: {
-				768: { slidesPerView: 2.2 },
-				1024: { slidesPerView: 3.2 }
-			}
-		});
-	}
-});
-</script>
+    <!-- 4. KEY METRICS -->
+    <section class="py-sectionMobile md:py-sectionDesktop bg-lightGray">
+        <div class="max-w-ihcContainer mx-auto px-5 md:px-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8">
+                <div>
+                    <h4 class="text-[14px] md:text-[16px] font-semibold text-labelGray uppercase tracking-wider mb-2">
+                        Market Capitalization</h4>
+                    <div class="text-[48px] md:text-[60px] font-light text-dark leading-none tracking-ihc">AED 876 bn
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-[14px] md:text-[16px] font-semibold text-labelGray uppercase tracking-wider mb-2">
+                        Total Assets</h4>
+                    <div class="text-[48px] md:text-[60px] font-light text-dark leading-none tracking-ihc">AED 228 bn
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-[14px] md:text-[16px] font-semibold text-labelGray uppercase tracking-wider mb-2">
+                        Revenue (FY 2023)</h4>
+                    <div class="text-[48px] md:text-[60px] font-light text-dark leading-none tracking-ihc">AED 60.1 bn
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- 5. INVESTMENT SECTORS -->
+    <section class="py-sectionMobile md:py-sectionDesktop">
+        <div class="max-w-ihcContainer mx-auto px-5 md:px-10">
+            <h2 class="text-[48px] md:text-[72px] font-light leading-ihcTitle tracking-ihc text-dark mb-16">
+                Strategic Sectors
+            </h2>
+            <div class="flex flex-col border-t border-black">
+                <!-- Sector Item -->
+                <a href="#"
+                    class="group flex flex-col md:flex-row justify-between md:items-center py-8 border-b border-borderColor hover-row transition-colors px-4">
+                    <div class="flex items-center gap-8 mb-4 md:mb-0">
+                        <span class="text-[16px] font-semibold text-labelGray">01</span>
+                        <h3 class="text-[32px] md:text-[40px] font-light tracking-ihc text-dark">Real Estate &
+                            Construction</h3>
+                    </div>
+                    <div class="flex items-center gap-6">
+                        <p class="text-lg font-light text-mediumGray hidden md:block max-w-md">Developing mega-projects
+                            and sustainable urban infrastructure.</p>
+                        <div
+                            class="w-10 h-10 rounded-full border border-borderColor flex items-center justify-center group-hover:bg-black group-hover:text-white transition-all">
+                            <span class="css-arrow"></span></div>
+                    </div>
+                </a>
+                <!-- Sector Item -->
+                <a href="#"
+                    class="group flex flex-col md:flex-row justify-between md:items-center py-8 border-b border-borderColor hover-row transition-colors px-4">
+                    <div class="flex items-center gap-8 mb-4 md:mb-0">
+                        <span class="text-[16px] font-semibold text-labelGray">02</span>
+                        <h3 class="text-[32px] md:text-[40px] font-light tracking-ihc text-dark">Healthcare</h3>
+                    </div>
+                    <div class="flex items-center gap-6">
+                        <p class="text-lg font-light text-mediumGray hidden md:block max-w-md">Advancing medical
+                            technologies and world-class care facilities.</p>
+                        <div
+                            class="w-10 h-10 rounded-full border border-borderColor flex items-center justify-center group-hover:bg-black group-hover:text-white transition-all">
+                            <span class="css-arrow"></span></div>
+                    </div>
+                </a>
+                <!-- Sector Item -->
+                <a href="#"
+                    class="group flex flex-col md:flex-row justify-between md:items-center py-8 border-b border-borderColor hover-row transition-colors px-4">
+                    <div class="flex items-center gap-8 mb-4 md:mb-0">
+                        <span class="text-[16px] font-semibold text-labelGray">03</span>
+                        <h3 class="text-[32px] md:text-[40px] font-light tracking-ihc text-dark">Technology & AI</h3>
+                    </div>
+                    <div class="flex items-center gap-6">
+                        <p class="text-lg font-light text-mediumGray hidden md:block max-w-md">Investing in deep tech,
+                            cybersecurity, and data transformation.</p>
+                        <div
+                            class="w-10 h-10 rounded-full border border-borderColor flex items-center justify-center group-hover:bg-black group-hover:text-white transition-all">
+                            <span class="css-arrow"></span></div>
+                    </div>
+                </a>
+                <!-- Sector Item -->
+                <a href="#"
+                    class="group flex flex-col md:flex-row justify-between md:items-center py-8 border-b border-borderColor hover-row transition-colors px-4">
+                    <div class="flex items-center gap-8 mb-4 md:mb-0">
+                        <span class="text-[16px] font-semibold text-labelGray">04</span>
+                        <h3 class="text-[32px] md:text-[40px] font-light tracking-ihc text-dark">Food & Agriculture</h3>
+                    </div>
+                    <div class="flex items-center gap-6">
+                        <p class="text-lg font-light text-mediumGray hidden md:block max-w-md">Securing supply chains
+                            and sustainable agri-tech innovations.</p>
+                        <div
+                            class="w-10 h-10 rounded-full border border-borderColor flex items-center justify-center group-hover:bg-black group-hover:text-white transition-all">
+                            <span class="css-arrow"></span></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
 
-<?php
-get_footer();
+    <!-- 6. PORTFOLIO -->
+    <section id="portfolio" class="py-sectionMobile md:py-sectionDesktop bg-lightGray">
+        <div class="max-w-ihcContainer mx-auto px-5 md:px-10">
+            <div class="flex justify-between items-end mb-16">
+                <h2 class="text-[48px] md:text-[72px] font-light leading-ihcTitle tracking-ihc text-dark">Featured
+                    Portfolio</h2>
+                <a href="#"
+                    class="hidden md:inline-flex items-center gap-3 px-6 py-3 border border-black/10 rounded-[100vw] text-dark bg-transparent hover:bg-black hover:text-white transition-all duration-300 text-lg">
+                    View All Assets <span class="css-arrow"></span>
+                </a>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Portfolio Item -->
+                <div class="group cursor-pointer">
+                    <div class="w-full aspect-square overflow-hidden mb-6">
+                        <img src="https://images.unsplash.com/photo-1574362848149-11496d93a7c7?q=80&w=2084&auto=format&fit=crop"
+                            class="w-full h-full object-cover sharp-img group-hover:scale-105 transition-transform duration-700">
+                    </div>
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="text-[28px] font-light text-dark tracking-ihc">Alpha Real Estate</h3>
+                            <p class="text-[16px] text-labelGray font-semibold uppercase tracking-wider mt-1">Property
+                            </p>
+                        </div>
+                        <span class="css-arrow mt-3"></span>
+                    </div>
+                </div>
+                <!-- Portfolio Item -->
+                <div class="group cursor-pointer">
+                    <div class="w-full aspect-square overflow-hidden mb-6">
+                        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop"
+                            class="w-full h-full object-cover sharp-img group-hover:scale-105 transition-transform duration-700">
+                    </div>
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="text-[28px] font-light text-dark tracking-ihc">CyberX AI Group</h3>
+                            <p class="text-[16px] text-labelGray font-semibold uppercase tracking-wider mt-1">Technology
+                            </p>
+                        </div>
+                        <span class="css-arrow mt-3"></span>
+                    </div>
+                </div>
+                <!-- Portfolio Item -->
+                <div class="group cursor-pointer">
+                    <div class="w-full aspect-square overflow-hidden mb-6">
+                        <img src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?q=80&w=2089&auto=format&fit=crop"
+                            class="w-full h-full object-cover sharp-img group-hover:scale-105 transition-transform duration-700">
+                    </div>
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="text-[28px] font-light text-dark tracking-ihc">MediCare Global</h3>
+                            <p class="text-[16px] text-labelGray font-semibold uppercase tracking-wider mt-1">Healthcare
+                            </p>
+                        </div>
+                        <span class="css-arrow mt-3"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-10 md:hidden">
+                <a href="#"
+                    class="inline-flex items-center gap-3 px-6 py-3 border border-black/10 rounded-[100vw] text-dark bg-transparent hover:bg-black hover:text-white transition-all duration-300 text-lg w-full justify-center">
+                    View All Assets <span class="css-arrow"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. LEADERSHIP -->
+    <section class="py-sectionMobile md:py-sectionDesktop">
+        <div class="max-w-ihcContainer mx-auto px-5 md:px-10">
+            <h2
+                class="text-[48px] md:text-[72px] font-light leading-ihcTitle tracking-ihc text-dark mb-16 text-center md:text-left">
+                Board of Directors
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12">
+                <!-- Leader 1 -->
+                <div>
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1974&auto=format&fit=crop"
+                        class="w-full aspect-[3/4] object-cover sharp-img grayscale hover:grayscale-0 transition-all duration-500 mb-6">
+                    <h3 class="text-[24px] font-light text-dark tracking-ihc">H.E. Syed Basar</h3>
+                    <p class="text-[14px] text-labelGray font-semibold uppercase tracking-wider mt-1">Chairman</p>
+                </div>
+                <!-- Leader 2 -->
+                <div>
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1976&auto=format&fit=crop"
+                        class="w-full aspect-[3/4] object-cover sharp-img grayscale hover:grayscale-0 transition-all duration-500 mb-6">
+                    <h3 class="text-[24px] font-light text-dark tracking-ihc">Sofia Al-Fayed</h3>
+                    <p class="text-[14px] text-labelGray font-semibold uppercase tracking-wider mt-1">Chief Executive
+                        Officer</p>
+                </div>
+                <!-- Leader 3 -->
+                <div>
+                    <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1974&auto=format&fit=crop"
+                        class="w-full aspect-[3/4] object-cover sharp-img grayscale hover:grayscale-0 transition-all duration-500 mb-6">
+                    <h3 class="text-[24px] font-light text-dark tracking-ihc">Omar Tariq</h3>
+                    <p class="text-[14px] text-labelGray font-semibold uppercase tracking-wider mt-1">Chief Financial
+                        Officer</p>
+                </div>
+                <!-- Leader 4 -->
+                <div>
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop"
+                        class="w-full aspect-[3/4] object-cover sharp-img grayscale hover:grayscale-0 transition-all duration-500 mb-6">
+                    <h3 class="text-[24px] font-light text-dark tracking-ihc">David Chen</h3>
+                    <p class="text-[14px] text-labelGray font-semibold uppercase tracking-wider mt-1">Head of
+                        Investments</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. ESG & SUSTAINABILITY -->
+    <section class="py-sectionMobile md:py-sectionDesktop bg-dark text-white">
+        <div class="max-w-ihcContainer mx-auto px-5 md:px-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-[40px] items-center">
+                <div class="w-full aspect-[4/5] md:aspect-square order-2 md:order-1">
+                    <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?q=80&w=2070&auto=format&fit=crop"
+                        class="w-full h-full object-cover sharp-img opacity-90">
+                </div>
+                <div class="md:pl-10 order-1 md:order-2">
+                    <h4 class="text-[14px] md:text-[16px] font-semibold text-white/50 uppercase tracking-wider mb-6">ESG
+                        Commitment</h4>
+                    <h2 class="text-[48px] md:text-[72px] font-light leading-ihcTitle tracking-ihc mb-8 text-white">
+                        Investing in a sustainable future.
+                    </h2>
+                    <p class="text-[24px] md:text-[28px] font-light text-white/80 leading-ihcPara mb-10">
+                        We integrate environmental, social, and governance frameworks into our investment lifecycle,
+                        ensuring our portfolio companies generate not just financial returns, but positive global
+                        impact.
+                    </p>
+                    <a href="#"
+                        class="inline-flex items-center gap-3 px-6 py-3 border border-white/30 rounded-[100vw] text-white bg-transparent hover:bg-white hover:text-dark transition-all duration-300 text-lg">
+                        Read ESG Report
+                        <span class="css-arrow"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. INVESTOR RELATIONS -->
+    <section id="ir" class="py-sectionMobile md:py-sectionDesktop">
+        <div class="max-w-ihcContainer mx-auto px-5 md:px-10">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-10">
+                <div class="md:col-span-5">
+                    <h4 class="text-[14px] md:text-[16px] font-semibold text-labelGray uppercase tracking-wider mb-6">
+                        Investor Relations
+                    </h4>
+                    <h2 class="text-[48px] md:text-[72px] font-light leading-ihcTitle tracking-ihc text-dark mb-8">
+                        Financial <br> Transparency.
+                    </h2>
+
+                    <!-- Fake Stock Ticker -->
+                    <div class="border border-borderColor p-6 mb-8 max-w-sm">
+                        <div class="text-[14px] font-semibold text-labelGray uppercase tracking-wider mb-2">ADX: IHC
+                        </div>
+                        <div class="text-[40px] font-light text-dark leading-none tracking-ihc mb-2">AED 399.50</div>
+                        <div class="text-green-600 font-semibold flex items-center gap-2">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+                            </svg>
+                            +1.2% (Today)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="md:col-span-7 md:pt-16">
+                    <div class="flex flex-col border-t border-black">
+                        <a href="#"
+                            class="group flex justify-between items-center py-6 border-b border-borderColor hover-row px-4">
+                            <span class="text-[20px] md:text-[24px] font-light text-dark">Annual Report 2023</span>
+                            <span
+                                class="text-[14px] font-semibold text-labelGray group-hover:text-dark transition-colors uppercase tracking-wider flex items-center gap-2">
+                                Download PDF <span class="css-arrow down mb-0 mt-1"></span>
+                            </span>
+                        </a>
+                        <a href="#"
+                            class="group flex justify-between items-center py-6 border-b border-borderColor hover-row px-4">
+                            <span class="text-[20px] md:text-[24px] font-light text-dark">Q1 2024 Financial
+                                Results</span>
+                            <span
+                                class="text-[14px] font-semibold text-labelGray group-hover:text-dark transition-colors uppercase tracking-wider flex items-center gap-2">
+                                Download PDF <span class="css-arrow down mb-0 mt-1"></span>
+                            </span>
+                        </a>
+                        <a href="#"
+                            class="group flex justify-between items-center py-6 border-b border-borderColor hover-row px-4">
+                            <span class="text-[20px] md:text-[24px] font-light text-dark">Corporate Governance
+                                Manual</span>
+                            <span
+                                class="text-[14px] font-semibold text-labelGray group-hover:text-dark transition-colors uppercase tracking-wider flex items-center gap-2">
+                                Download PDF <span class="css-arrow down mb-0 mt-1"></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. LATEST NEWS -->
+    <section id="news" class="py-sectionMobile md:py-sectionDesktop bg-lightGray">
+        <div class="max-w-ihcContainer mx-auto px-5 md:px-10">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
+                <h2 class="text-[48px] md:text-[72px] font-light leading-ihcTitle tracking-ihc text-dark">Newsroom</h2>
+                <div class="flex items-center gap-4 mt-6 md:mt-0">
+                    <div
+                        class="slider-nav-btn w-[40px] h-[40px] rounded-full bg-black text-white flex items-center justify-center">
+                        <span class="css-arrow prev"></span></div>
+                    <div
+                        class="slider-nav-btn w-[40px] h-[40px] rounded-full bg-black text-white flex items-center justify-center">
+                        <span class="css-arrow next"></span></div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
+                <!-- WP_Query starts here -->
+                <article class="group cursor-pointer">
+                    <div class="w-full aspect-[4/3] overflow-hidden mb-6">
+                        <img src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?q=80&w=2073&auto=format&fit=crop"
+                            class="w-full h-full object-cover sharp-img group-hover:scale-105 transition-transform duration-700">
+                    </div>
+                    <div class="text-[14px] font-semibold text-labelGray uppercase tracking-wider mb-3">24 May 2024
+                    </div>
+                    <h3
+                        class="text-[24px] font-light leading-snug tracking-ihc text-dark group-hover:text-mediumGray transition-colors">
+                        Strategic acquisition in the renewable energy sector to boost sustainability goals.
+                    </h3>
+                </article>
+                <article class="group cursor-pointer hidden md:block">
+                    <div class="w-full aspect-[4/3] overflow-hidden mb-6">
+                        <img src="https://images.unsplash.com/photo-1664575602276-acd073f104c1?q=80&w=2070&auto=format&fit=crop"
+                            class="w-full h-full object-cover sharp-img group-hover:scale-105 transition-transform duration-700">
+                    </div>
+                    <div class="text-[14px] font-semibold text-labelGray uppercase tracking-wider mb-3">18 May 2024
+                    </div>
+                    <h3
+                        class="text-[24px] font-light leading-snug tracking-ihc text-dark group-hover:text-mediumGray transition-colors">
+                        Q1 2024 Results: Profit margins exceed market expectations across core divisions.
+                    </h3>
+                </article>
+                <article class="group cursor-pointer hidden md:block">
+                    <div class="w-full aspect-[4/3] overflow-hidden mb-6">
+                        <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=2069&auto=format&fit=crop"
+                            class="w-full h-full object-cover sharp-img group-hover:scale-105 transition-transform duration-700">
+                    </div>
+                    <div class="text-[14px] font-semibold text-labelGray uppercase tracking-wider mb-3">02 May 2024
+                    </div>
+                    <h3
+                        class="text-[24px] font-light leading-snug tracking-ihc text-dark group-hover:text-mediumGray transition-colors">
+                        Global tech summit highlights ongoing investments in artificial intelligence infrastructure.
+                    </h3>
+                </article>
+            </div>
+
+            <div class="mt-12 text-center md:text-left">
+                <a href="#"
+                    class="inline-flex items-center gap-3 px-6 py-3 border border-black/10 rounded-[100vw] text-dark bg-transparent hover:bg-black hover:text-white transition-all duration-300 text-lg">
+                    View All News <span class="css-arrow"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. FAQ -->
+    <section class="py-sectionMobile md:py-sectionDesktop">
+        <div class="max-w-ihcContainer mx-auto px-5 md:px-10">
+            <div class="max-w-3xl mx-auto">
+                <h2
+                    class="text-[36px] md:text-[48px] font-light leading-ihcTitle tracking-ihc text-dark mb-12 text-center">
+                    Frequently Asked Questions
+                </h2>
+                <div class="border-t border-black">
+                    <details class="group py-6 border-b border-borderColor cursor-pointer">
+                        <summary
+                            class="text-[20px] font-light text-dark list-none flex justify-between items-center font-cairo outline-none">
+                            What is the primary investment strategy?
+                            <span class="text-2xl transition group-open:rotate-45">+</span>
+                        </summary>
+                        <p class="text-mediumGray font-light mt-4 text-lg">We focus on strategic, long-term investments
+                            in high-growth sectors, taking controlling or significant minority stakes to actively drive
+                            value creation.</p>
+                    </details>
+                    <details class="group py-6 border-b border-borderColor cursor-pointer">
+                        <summary
+                            class="text-[20px] font-light text-dark list-none flex justify-between items-center font-cairo outline-none">
+                            How do I contact Investor Relations?
+                            <span class="text-2xl transition group-open:rotate-45">+</span>
+                        </summary>
+                        <p class="text-mediumGray font-light mt-4 text-lg">Please email ir@company.com or fill out the
+                            contact form below. Our team aims to respond to all shareholder inquiries within 48 hours.
+                        </p>
+                    </details>
+                    <details class="group py-6 border-b border-borderColor cursor-pointer">
+                        <summary
+                            class="text-[20px] font-light text-dark list-none flex justify-between items-center font-cairo outline-none">
+                            Where are your headquarters located?
+                            <span class="text-2xl transition group-open:rotate-45">+</span>
+                        </summary>
+                        <p class="text-mediumGray font-light mt-4 text-lg">Our global headquarters is situated in the
+                            financial district of Abu Dhabi, with regional offices spanning across Europe, Asia, and the
+                            Americas.</p>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 12. CONTACT CTA -->
+    <section class="py-[120px] bg-dark text-center px-5">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-[48px] md:text-[72px] font-light leading-ihcTitle tracking-ihc text-white mb-8">
+                Ready to partner with us?
+            </h2>
+            <p class="text-[20px] font-light text-white/70 mb-10">
+                Connect with our team to explore investment opportunities, partnerships, or media inquiries.
+            </p>
+            <a href="#"
+                class="inline-flex items-center gap-3 px-8 py-4 border border-transparent rounded-[100vw] text-dark bg-white hover:bg-lightGray transition-all duration-300 text-xl font-medium">
+                Contact Us Now
+                <span class="css-arrow"></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- 13. FOOTER -->
+    
+<?php get_footer(); ?>
