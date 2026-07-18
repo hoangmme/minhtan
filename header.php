@@ -22,8 +22,8 @@
             theme: {
                 extend: {
                     fontFamily: {
-                        sans: ['Be Vietnam Pro', 'sans-serif'],
-                        cairo: ['Be Vietnam Pro', 'sans-serif'],
+                        sans: ['"Be Vietnam Pro"', 'sans-serif'],
+                        cairo: ['"Be Vietnam Pro"', 'sans-serif'],
                     },
                     colors: {
                         black: '#000000',
@@ -55,7 +55,7 @@
 
     <style>
         body {
-            font-family: 'Be Vietnam Pro', sans-serif;
+            font-family: '"Be Vietnam Pro"', sans-serif;
             background-color: #FFFFFF;
             color: #111111;
         }
@@ -128,10 +128,52 @@
                     'fallback_cb'    => false,
                 ) );
                 ?>
-                <button
-                    class="text-sm font-semibold text-dark uppercase tracking-wider hover:text-labelGray transition-colors">
-                    Menu
+                
+                <!-- Hamburger Button (Mobile Only) -->
+                <button id="mobile-menu-btn" class="md:hidden flex flex-col justify-center items-center w-8 h-8 space-y-1.5 focus:outline-none z-50">
+                    <span class="w-6 h-[2px] bg-dark transition-transform duration-300"></span>
+                    <span class="w-6 h-[2px] bg-dark transition-opacity duration-300"></span>
+                    <span class="w-6 h-[2px] bg-dark transition-transform duration-300"></span>
                 </button>
+
             </div>
         </div>
     </header>
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu" class="fixed inset-0 bg-white z-40 transform translate-x-full transition-transform duration-300 ease-in-out md:hidden flex flex-col justify-center items-center">
+        <?php
+        wp_nav_menu( array(
+            'theme_location' => 'menu-1',
+            'menu_id'        => 'mobile-primary-menu',
+            'container'      => false,
+            'menu_class'     => 'flex flex-col gap-8 text-2xl font-light text-dark uppercase tracking-wider text-center',
+            'fallback_cb'    => false,
+        ) );
+        ?>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const btn = document.getElementById('mobile-menu-btn');
+            const menu = document.getElementById('mobile-menu');
+            const spans = btn.querySelectorAll('span');
+            let isOpen = false;
+
+            btn.addEventListener('click', function() {
+                isOpen = !isOpen;
+                if (isOpen) {
+                    menu.classList.remove('translate-x-full');
+                    spans[0].classList.add('rotate-45', 'translate-y-2');
+                    spans[1].classList.add('opacity-0');
+                    spans[2].classList.add('-rotate-45', '-translate-y-2');
+                    document.body.style.overflow = 'hidden'; // Prevent scrolling
+                } else {
+                    menu.classList.add('translate-x-full');
+                    spans[0].classList.remove('rotate-45', 'translate-y-2');
+                    spans[1].classList.remove('opacity-0');
+                    spans[2].classList.remove('-rotate-45', '-translate-y-2');
+                    document.body.style.overflow = '';
+                }
+            });
+        });
+    </script>
