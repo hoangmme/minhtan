@@ -15,7 +15,7 @@ get_header();
 		<div class="swiper heroSwiper">
 			<div class="swiper-wrapper">
 				<!-- Slide 1 -->
-				<div class="swiper-slide" style="background-image: url('https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/4ddc9e41-16e6-4796-9f83-6e58740cfed3');">
+				<div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=1920&auto=format&fit=crop');">
 					<div class="hero-overlay"></div>
 					<div class="container hero-content">
 						<h1>Shaping the Future <br>Through Strategic Investments</h1>
@@ -24,7 +24,7 @@ get_header();
 					</div>
 				</div>
 				<!-- Slide 2 -->
-				<div class="swiper-slide" style="background-image: url('https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/0977ba29-c2f7-44ca-b8c3-17be41baf363');">
+				<div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=1920&auto=format&fit=crop');">
 					<div class="hero-overlay"></div>
 					<div class="container hero-content">
 						<h1>Driving Economic <br>Growth & Resilience</h1>

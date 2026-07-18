@@ -92,14 +92,16 @@ ul {
 .hero-slider {
   height: 100vh;
   position: relative;
+  overflow: hidden;
 }
-.heroSwiper {
+.heroSwiper, .swiper-wrapper, .swiper-slide {
   width: 100%;
   height: 100%;
 }
 .swiper-slide {
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   position: relative;
   display: flex;
   align-items: center;
