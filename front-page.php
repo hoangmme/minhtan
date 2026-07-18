@@ -6,25 +6,29 @@ get_header(); ?>
 
 
     <!-- 2. HERO SECTION -->
-    <section class="pt-sectionMobile pb-[80px] md:pt-sectionDesktop md:pb-[120px]">
-        <div class="max-w-ihcContainer mx-auto px-5 md:px-10">
-            <div class="max-w-4xl mb-16 md:mb-24">
-                <h1 class="text-5xl md:text-7xl font-normal leading-tight tracking-tight text-dark mb-8">
+    <section class="relative w-full h-[80vh] min-h-[600px] flex items-center justify-center overflow-hidden">
+        <!-- Background Video -->
+        <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover z-0">
+            <source src="https://videos.pexels.com/video-files/3121459/3121459-hd_1920_1080_24fps.mp4" type="video/mp4">
+        </video>
+        
+        <!-- Dark Overlay for better text readability -->
+        <div class="absolute inset-0 bg-black/40 z-10"></div>
+
+        <!-- Content -->
+        <div class="relative z-20 max-w-ihcContainer mx-auto px-5 md:px-10 w-full">
+            <div class="max-w-4xl">
+                <h1 class="text-5xl md:text-7xl font-normal leading-tight tracking-tight text-white mb-8">
                     Tăng trưởng doanh nghiệp.<br> Định hình tương lai.
                 </h1>
-                <p class="text-2xl md:text-3xl font-normal text-mediumGray leading-relaxed mb-10 max-w-3xl">
+                <p class="text-2xl md:text-3xl font-normal text-white/90 leading-relaxed mb-10 max-w-3xl">
                     Một tập đoàn đầu tư toàn cầu hàng đầu, thúc đẩy tăng trưởng bền vững và giá trị dài hạn trên nhiều lĩnh vực.
                 </p>
                 <a href="#about"
-                    class="inline-flex items-center gap-3 px-6 py-3 border border-black/10 rounded-[100vw] text-dark bg-transparent hover:bg-black hover:text-white transition-all duration-300 text-lg">
+                    class="inline-flex items-center gap-3 px-6 py-3 border border-white/30 rounded-[100vw] text-white bg-transparent hover:bg-white hover:text-dark transition-all duration-300 text-lg">
                     Khám Phá Các Khoản Đầu Tư
-                    <span class="css-arrow down"></span>
+                    <span class="css-arrow down border-white"></span>
                 </a>
-            </div>
-            <div class="w-full h-[50vh] md:h-[75vh] overflow-hidden">
-                <video autoplay loop muted playsinline class="w-full h-full object-cover">
-                    <source src="https://videos.pexels.com/video-files/3121459/3121459-hd_1920_1080_24fps.mp4" type="video/mp4">
-                </video>
             </div>
         </div>
     </section>
