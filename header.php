@@ -26,8 +26,8 @@
                         cairo: ["Inter", 'sans-serif'],
                     },
                     colors: {
-                        black: '#000000',
-                        dark: '#111111',
+                        black: '#233F53',
+                        dark: '#345b77',
                         darkGray: '#333333',
                         mediumGray: '#555555',
                         lightGray: '#F9F9F9',
@@ -57,7 +57,7 @@
         body {
             font-family: 'Inter', sans-serif;
             background-color: #FFFFFF;
-            color: #111111;
+            color: #345b77;
         }
 
         /* CSS Arrow Icon */
@@ -112,8 +112,8 @@
     <!-- 1. HEADER -->
     <header class="w-full border-b border-borderColor py-6 sticky top-0 bg-white z-50">
         <div class="max-w-ihcContainer mx-auto px-5 md:px-10 flex justify-between items-center">
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>"  class="text-3xl font-normal tracking-ihc leading-none">
-                IHC<span class="text-labelGray">.</span>
+            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="block">
+                <img src="https://mt.mme.vn/wp-content/uploads/2026/07/Thiet-ke-chua-co-ten.webp" alt="Logo" class="h-10 md:h-14 w-auto object-contain">
             </a>
             <div class="flex items-center gap-8">
                 <?php

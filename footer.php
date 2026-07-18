@@ -2,8 +2,8 @@
         <div class="max-w-ihcContainer mx-auto px-5 md:px-10">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
                 <div class="md:col-span-2">
-                    <a href="#" class="text-4xl font-normal tracking-ihc leading-none block mb-6">
-                        IHC<span class="text-labelGray">.</span>
+                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="block mb-6">
+                        <img src="https://mt.mme.vn/wp-content/uploads/2026/07/Thiet-ke-chua-co-ten.webp" alt="Logo" class="h-10 md:h-14 w-auto object-contain">
                     </a>
                     <p class="text-lg font-normal text-mediumGray max-w-sm">
                         Building a better tomorrow through strategic, value-driven investments globally.
