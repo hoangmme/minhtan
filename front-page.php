@@ -10,12 +10,34 @@ get_header();
 
 <main id="primary" class="site-main">
 
-	<!-- 1. Hero Section -->
-	<section class="hero" style="background-image: url('https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/4ddc9e41-16e6-4796-9f83-6e58740cfed3');">
-		<div class="container hero-content">
-			<h1>Shaping the Future <br>Through Strategic Investments</h1>
-			<p>A fast-growing diversified holding company that is redefining the global marketplace.</p>
-			<a href="<?php echo esc_url( home_url( '/who-we-are' ) ); ?>" class="btn">Discover Our Journey</a>
+	<!-- 1. Hero Slider Section -->
+	<section class="hero-slider">
+		<div class="swiper heroSwiper">
+			<div class="swiper-wrapper">
+				<!-- Slide 1 -->
+				<div class="swiper-slide" style="background-image: url('https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/4ddc9e41-16e6-4796-9f83-6e58740cfed3');">
+					<div class="hero-overlay"></div>
+					<div class="container hero-content">
+						<h1>Shaping the Future <br>Through Strategic Investments</h1>
+						<p>A fast-growing diversified holding company that is redefining the global marketplace.</p>
+						<a href="<?php echo esc_url( home_url( '/who-we-are' ) ); ?>" class="btn">Discover Our Journey</a>
+					</div>
+				</div>
+				<!-- Slide 2 -->
+				<div class="swiper-slide" style="background-image: url('https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/0977ba29-c2f7-44ca-b8c3-17be41baf363');">
+					<div class="hero-overlay"></div>
+					<div class="container hero-content">
+						<h1>Driving Economic <br>Growth & Resilience</h1>
+						<p>Investing across sectors to build a sustainable future.</p>
+						<a href="<?php echo esc_url( home_url( '/portfolio' ) ); ?>" class="btn">View Portfolio</a>
+					</div>
+				</div>
+			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+			<!-- Add Navigation -->
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
 		</div>
 	</section>
 
@@ -186,6 +208,32 @@ get_header();
 	</section>
 
 </main><!-- #main -->
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+	if (typeof Swiper !== 'undefined') {
+		var heroSwiper = new Swiper('.heroSwiper', {
+			loop: true,
+			autoplay: {
+				delay: 5000,
+				disableOnInteraction: false,
+			},
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			},
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+			effect: 'fade',
+			fadeEffect: {
+				crossFade: true
+			}
+		});
+	}
+});
+</script>
 
 <?php
 get_footer();

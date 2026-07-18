@@ -88,9 +88,16 @@ ul {
 }
 .main-navigation a:hover { color: var(--accent-color); }
 
-/* Hero */
-.hero {
+/* Hero Slider */
+.hero-slider {
   height: 100vh;
+  position: relative;
+}
+.heroSwiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
   background-size: cover;
   background-position: center;
   position: relative;
@@ -98,16 +105,17 @@ ul {
   align-items: center;
   color: var(--text-light);
 }
-.hero::after {
-  content: '';
+.hero-overlay {
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
   background: rgba(0,0,0,0.5);
   z-index: 1;
 }
 .hero-content { position: relative; z-index: 2; max-width: 800px; }
-.hero h1 { font-size: 4.5rem; font-weight: 800; margin-bottom: 20px; line-height: 1.1; }
-.hero p { font-size: 1.3rem; margin-bottom: 40px; font-weight: 300; }
+.hero-content h1 { font-size: 4.5rem; font-weight: 800; margin-bottom: 20px; line-height: 1.1; }
+.hero-content p { font-size: 1.3rem; margin-bottom: 40px; font-weight: 300; }
+.swiper-button-next, .swiper-button-prev { color: var(--accent-color); }
+.swiper-pagination-bullet-active { background: var(--accent-color); }
 
 .btn {
   display: inline-block;
@@ -132,11 +140,13 @@ ul {
   overflow: hidden;
   border-radius: 8px;
   height: 350px;
+  display: block; /* Fix inline element ignoring height */
 }
 .portfolio-card img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
   transition: transform 0.5s ease;
 }
 .portfolio-card:hover img { transform: scale(1.1); }
