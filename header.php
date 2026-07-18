@@ -112,7 +112,7 @@
     <!-- 1. HEADER -->
     <header class="w-full border-b border-borderColor py-6 sticky top-0 bg-white z-50">
         <div class="max-w-ihcContainer mx-auto px-5 md:px-10 flex justify-between items-center">
-            <a href="#" class="text-3xl font-light tracking-ihc leading-none">
+            <a href="#" class="text-3xl font-normal tracking-ihc leading-none">
                 IHC<span class="text-labelGray">.</span>
             </a>
             <div class="flex items-center gap-8">
@@ -121,7 +121,7 @@
                     'theme_location' => 'menu-1',
                     'menu_id'        => 'primary-menu',
                     'container'      => false,
-                    'menu_class'     => 'hidden md:flex gap-6 text-sm font-semibold text-dark uppercase tracking-wider',
+                    'menu_class'     => 'hidden md:flex gap-6 text-sm font-bold text-dark uppercase tracking-wider',
                     'fallback_cb'    => false,
                 ) );
                 ?>
@@ -143,7 +143,7 @@
             'theme_location' => 'menu-1',
             'menu_id'        => 'mobile-primary-menu',
             'container'      => false,
-            'menu_class'     => 'flex flex-col gap-8 text-2xl font-light text-dark uppercase tracking-wider text-center',
+            'menu_class'     => 'flex flex-col gap-8 text-2xl font-normal text-dark uppercase tracking-wider text-center',
             'fallback_cb'    => false,
         ) );
         ?>
