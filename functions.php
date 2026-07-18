@@ -47,14 +47,10 @@ function ihcu_scripts() {
 	// Google Fonts (Cairo)
 	wp_enqueue_style( 'ihcu-fonts', 'https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap', array(), null );
 	
-	// Original IHC CSS
-	wp_enqueue_style( 'ihcu-original-css', get_template_directory_uri() . '/assets/index.css', array(), '1.0.0' );
-	wp_enqueue_style( 'ihcu-animations-css', get_template_directory_uri() . '/assets/animations.css', array(), '1.0.0' );
-
 	// Swiper CSS
 	wp_enqueue_style( 'swiper-css', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css', array(), '11.0.0' );
 
-	// Main Style (Just for overrides if needed)
+	// Main Style
 	wp_enqueue_style( 'ihcu-style', get_stylesheet_uri(), array(), '1.0.0' );
 
 	// Swiper JS
