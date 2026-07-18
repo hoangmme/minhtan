@@ -50,8 +50,8 @@ get_header(); ?>
                 <?php
                 the_posts_pagination( array(
                     'mid_size'  => 2,
-                    'prev_text' => __( '&lsaquo; Previous', 'ihcu' ),
-                    'next_text' => __( 'Next &rsaquo;', 'ihcu' ),
+                    'prev_text' => __( '&lsaquo; Trang trước', 'ihcu' ),
+                    'next_text' => __( 'Trang sau &rsaquo;', 'ihcu' ),
                     'class'     => 'tailwind-pagination',
                 ) );
                 ?>
@@ -91,7 +91,7 @@ get_header(); ?>
             </style>
 
         <?php else : ?>
-            <p>No news found.</p>
+            <p>Không tìm thấy bài viết nào.</p>
         <?php endif; ?>
 
     </div>

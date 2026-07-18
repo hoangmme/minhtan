@@ -80,7 +80,7 @@ get_header(); ?>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8">
                 <div>
                     <h4 class="text-[14px] md:text-[16px] font-semibold text-labelGray uppercase tracking-wider mb-2">
-                        Market Capitalization</h4>
+                        Vốn hóa Thị trường</h4>
                     <div class="text-[48px] md:text-[60px] font-light text-dark leading-none tracking-ihc">AED 876 bn
                     </div>
                 </div>
@@ -128,7 +128,7 @@ get_header(); ?>
                     class="group flex flex-col md:flex-row justify-between md:items-center py-8 border-b border-borderColor hover-row transition-colors px-4">
                     <div class="flex items-center gap-8 mb-4 md:mb-0">
                         <span class="text-[16px] font-semibold text-labelGray">02</span>
-                        <h3 class="text-[32px] md:text-[40px] font-light tracking-ihc text-dark">Healthcare</h3>
+                        <h3 class="text-[32px] md:text-[40px] font-light tracking-ihc text-dark">Chăm Sóc Sức Khỏe</h3>
                     </div>
                     <div class="flex items-center gap-6">
                         <p class="text-lg font-light text-mediumGray hidden md:block max-w-md">Advancing medical
@@ -143,7 +143,7 @@ get_header(); ?>
                     class="group flex flex-col md:flex-row justify-between md:items-center py-8 border-b border-borderColor hover-row transition-colors px-4">
                     <div class="flex items-center gap-8 mb-4 md:mb-0">
                         <span class="text-[16px] font-semibold text-labelGray">03</span>
-                        <h3 class="text-[32px] md:text-[40px] font-light tracking-ihc text-dark">Technology & AI</h3>
+                        <h3 class="text-[32px] md:text-[40px] font-light tracking-ihc text-dark">Công Nghệ & AI</h3>
                     </div>
                     <div class="flex items-center gap-6">
                         <p class="text-lg font-light text-mediumGray hidden md:block max-w-md">Investing in deep tech,
@@ -158,7 +158,7 @@ get_header(); ?>
                     class="group flex flex-col md:flex-row justify-between md:items-center py-8 border-b border-borderColor hover-row transition-colors px-4">
                     <div class="flex items-center gap-8 mb-4 md:mb-0">
                         <span class="text-[16px] font-semibold text-labelGray">04</span>
-                        <h3 class="text-[32px] md:text-[40px] font-light tracking-ihc text-dark">Food & Agriculture</h3>
+                        <h3 class="text-[32px] md:text-[40px] font-light tracking-ihc text-dark">Nông Nghiệp & Thực Phẩm</h3>
                     </div>
                     <div class="flex items-center gap-6">
                         <p class="text-lg font-light text-mediumGray hidden md:block max-w-md">Securing supply chains
@@ -209,7 +209,7 @@ get_header(); ?>
                     <div class="flex justify-between items-start">
                         <div>
                             <h3 class="text-[28px] font-light text-dark tracking-ihc">CyberX AI Group</h3>
-                            <p class="text-[16px] text-labelGray font-semibold uppercase tracking-wider mt-1">Technology
+                            <p class="text-[16px] text-labelGray font-semibold uppercase tracking-wider mt-1">Công Nghệ
                             </p>
                         </div>
                         <span class="css-arrow mt-3"></span>
@@ -224,7 +224,7 @@ get_header(); ?>
                     <div class="flex justify-between items-start">
                         <div>
                             <h3 class="text-[28px] font-light text-dark tracking-ihc">MediCare Global</h3>
-                            <p class="text-[16px] text-labelGray font-semibold uppercase tracking-wider mt-1">Healthcare
+                            <p class="text-[16px] text-labelGray font-semibold uppercase tracking-wider mt-1">Chăm Sóc Sức Khỏe
                             </p>
                         </div>
                         <span class="css-arrow mt-3"></span>
@@ -378,7 +378,7 @@ get_header(); ?>
     <section id="news" class="py-sectionMobile md:py-sectionDesktop bg-lightGray">
         <div class="max-w-ihcContainer mx-auto px-5 md:px-10">
             <div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
-                <h2 class="text-[48px] md:text-[72px] font-light leading-ihcTitle tracking-ihc text-dark">Newsroom</h2>
+                <h2 class="text-[48px] md:text-[72px] font-light leading-ihcTitle tracking-ihc text-dark">Tin Tức</h2>
                 <div class="flex items-center gap-4 mt-6 md:mt-0">
                     <div
                         class="slider-nav-btn w-[40px] h-[40px] rounded-full bg-black text-white flex items-center justify-center">
@@ -390,49 +390,43 @@ get_header(); ?>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
-                <!-- WP_Query starts here -->
-                <article class="group cursor-pointer">
-                    <div class="w-full aspect-[4/3] overflow-hidden mb-6">
-                        <img src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?q=80&w=2073&auto=format&fit=crop"
-                            class="w-full h-full object-cover sharp-img group-hover:scale-105 transition-transform duration-700">
-                    </div>
-                    <div class="text-[14px] font-semibold text-labelGray uppercase tracking-wider mb-3">24 May 2024
-                    </div>
-                    <h3
-                        class="text-[24px] font-light leading-snug tracking-ihc text-dark group-hover:text-mediumGray transition-colors">
-                        Strategic acquisition in the renewable energy sector to boost sustainability goals.
-                    </h3>
-                </article>
-                <article class="group cursor-pointer hidden md:block">
-                    <div class="w-full aspect-[4/3] overflow-hidden mb-6">
-                        <img src="https://images.unsplash.com/photo-1664575602276-acd073f104c1?q=80&w=2070&auto=format&fit=crop"
-                            class="w-full h-full object-cover sharp-img group-hover:scale-105 transition-transform duration-700">
-                    </div>
-                    <div class="text-[14px] font-semibold text-labelGray uppercase tracking-wider mb-3">18 May 2024
-                    </div>
-                    <h3
-                        class="text-[24px] font-light leading-snug tracking-ihc text-dark group-hover:text-mediumGray transition-colors">
-                        Q1 2024 Results: Profit margins exceed market expectations across core divisions.
-                    </h3>
-                </article>
-                <article class="group cursor-pointer hidden md:block">
-                    <div class="w-full aspect-[4/3] overflow-hidden mb-6">
-                        <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=2069&auto=format&fit=crop"
-                            class="w-full h-full object-cover sharp-img group-hover:scale-105 transition-transform duration-700">
-                    </div>
-                    <div class="text-[14px] font-semibold text-labelGray uppercase tracking-wider mb-3">02 May 2024
-                    </div>
-                    <h3
-                        class="text-[24px] font-light leading-snug tracking-ihc text-dark group-hover:text-mediumGray transition-colors">
-                        Global tech summit highlights ongoing investments in artificial intelligence infrastructure.
-                    </h3>
-                </article>
-            </div>
-
-            <div class="mt-12 text-center md:text-left">
+                <?php
+                $news_args = array(
+                    'post_type'      => 'post',
+                    'posts_per_page' => 3,
+                );
+                $news_query = new WP_Query( $news_args );
+                if ( $news_query->have_posts() ) :
+                    while ( $news_query->have_posts() ) : $news_query->the_post();
+                ?>
+                <a href="<?php the_permalink(); ?>" class="block">
+                    <article class="group cursor-pointer">
+                        <div class="w-full aspect-[4/3] overflow-hidden mb-6">
+                            <?php if ( has_post_thumbnail() ) : ?>
+                                <?php the_post_thumbnail('large', array('class' => 'w-full h-full object-cover sharp-img group-hover:scale-105 transition-transform duration-700')); ?>
+                            <?php else: ?>
+                                <img src="https://via.placeholder.com/600x400" alt="<?php the_title_attribute(); ?>" class="w-full h-full object-cover sharp-img group-hover:scale-105 transition-transform duration-700">
+                            <?php endif; ?>
+                        </div>
+                        <div class="text-[14px] font-semibold text-labelGray uppercase tracking-wider mb-3">
+                            <?php echo get_the_date(); ?>
+                        </div>
+                        <h3 class="text-[24px] font-light leading-snug tracking-ihc text-dark group-hover:text-mediumGray transition-colors">
+                            <?php the_title(); ?>
+                        </h3>
+                    </article>
+                </a>
+                <?php
+                    endwhile;
+                    wp_reset_postdata();
+                else:
+                    echo '<p>Không tìm thấy tin tức nào.</p>';
+                endif;
+                ?>
+            </div><div class="mt-12 text-center md:text-left">
                 <a href="#"
                     class="inline-flex items-center gap-3 px-6 py-3 border border-black/10 rounded-[100vw] text-dark bg-transparent hover:bg-black hover:text-white transition-all duration-300 text-lg">
-                    View All News <span class="css-arrow"></span>
+                    Xem Tất Cả Tin Tức <span class="css-arrow"></span>
                 </a>
             </div>
         </div>
@@ -444,7 +438,7 @@ get_header(); ?>
             <div class="max-w-3xl mx-auto">
                 <h2
                     class="text-[36px] md:text-[48px] font-light leading-ihcTitle tracking-ihc text-dark mb-12 text-center">
-                    Frequently Asked Questions
+                    Câu Hỏi Thường Gặp
                 </h2>
                 <div class="border-t border-black">
                     <details class="group py-6 border-b border-borderColor cursor-pointer">

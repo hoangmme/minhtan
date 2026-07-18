@@ -59,7 +59,7 @@ get_header();
 <!-- Back to news button -->
 <div class="bg-gray-50 py-16 text-center border-t border-gray-200">
     <a href="<?php echo esc_url( home_url( '/newsroom' ) ); ?>" class="inline-flex items-center gap-3 px-8 py-3 rounded-full border border-gray-300 text-black hover:bg-black hover:text-white transition-all">
-        &lsaquo; Back to Newsroom
+        &lsaquo; Quay lại Tin Tức
     </a>
 </div>
 
