@@ -9,10 +9,10 @@ get_header(); ?>
     <section class="pt-sectionMobile pb-[80px] md:pt-sectionDesktop md:pb-[120px]">
         <div class="max-w-ihcContainer mx-auto px-5 md:px-10">
             <div class="max-w-4xl mb-16 md:mb-24">
-                <h1 class="text-[48px] md:text-[72px] font-light leading-ihcTitle tracking-ihc text-dark mb-8">
+                <h1 class="text-5xl md:text-7xl font-normal leading-tight tracking-tight text-dark mb-8">
                     Tăng trưởng doanh nghiệp.<br> Định hình tương lai.
                 </h1>
-                <p class="text-[24px] md:text-[28px] font-light text-mediumGray leading-ihcPara mb-10 max-w-3xl">
+                <p class="text-2xl md:text-3xl font-normal text-mediumGray leading-relaxed mb-10 max-w-3xl">
                     Một tập đoàn đầu tư toàn cầu hàng đầu, thúc đẩy tăng trưởng bền vững và giá trị dài hạn trên nhiều lĩnh vực.
                 </p>
                 <a href="#about"
