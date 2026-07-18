@@ -13,7 +13,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -55,7 +55,7 @@
 
     <style>
         body {
-            font-family: '"Be Vietnam Pro"', sans-serif;
+            font-family: 'Be Vietnam Pro', sans-serif;
             background-color: #FFFFFF;
             color: #111111;
         }
@@ -105,9 +105,6 @@
         }
     </style>
 <?php wp_head(); ?>
-<style>
-        #primary-menu { display: flex; gap: 1.5rem; }
-    </style>
     </head>
 
 <body class="antialiased selection:bg-dark selection:text-white" <?php body_class(); ?>>

@@ -45,7 +45,7 @@ add_action( 'after_setup_theme', 'ihcu_setup' );
  */
 function ihcu_scripts() {
 	// Google Fonts (Cairo)
-	wp_enqueue_style( 'ihcu-fonts', 'https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap', array(), null );
+	wp_enqueue_style( 'ihcu-fonts', 'https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap', array(), null );
 	
 	// Swiper CSS
 	wp_enqueue_style( 'swiper-css', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css', array(), '11.0.0' );
