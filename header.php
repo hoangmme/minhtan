@@ -77,7 +77,30 @@ document.addEventListener('DOMContentLoaded',Â functionÂ ()Â {
         } catch (_) { };
     })
 })();
-</script><?php wp_head(); ?>
+</script>
+<style>
+/* Force visibility in case JS intersection observer fails */
+.sa-section, .sa-card, .custom-label, .custom-heading, .custom-description, .custom-image, [data-custom-bullet] {
+    opacity: 1 !important;
+    transform: none !important;
+    animation: none !important;
+}
+
+/* Fix arrows */
+.social-p, .social-n, .news-p, .news-n {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: #000 !important;
+    border-radius: 50% !important;
+    color: #fff !important;
+    cursor: pointer;
+}
+.social-p::after, .news-p::after { content: "←"; font-size: 16px; }
+.social-n::after, .news-n::after { content: "→"; font-size: 16px; }
+</style>
+
+<?php wp_head(); ?>
 </head><body dir="ltr" class="w-element"><div class="w-html-embed"><!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GB7KQL8JG2" type="text/javascript"></script>
 <script type="text/javascript">
