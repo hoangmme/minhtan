@@ -10,70 +10,72 @@ get_header();
 
 <main id="primary" class="site-main">
 
-	<!-- 1. Hero Slider Section -->
-	<section class="hero-slider">
-		<div class="swiper heroSwiper">
-			<div class="swiper-wrapper">
-				<!-- Slide 1 -->
-				<div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=1920&auto=format&fit=crop');">
-					<div class="hero-overlay"></div>
-					<div class="container hero-content">
-						<h1>Shaping the Future <br>Through Strategic Investments</h1>
-						<p>A fast-growing diversified holding company that is redefining the global marketplace.</p>
-						<a href="<?php echo esc_url( home_url( '/who-we-are' ) ); ?>" class="btn">Discover Our Journey</a>
-					</div>
-				</div>
-				<!-- Slide 2 -->
-				<div class="swiper-slide" style="background-image: url('https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=1920&auto=format&fit=crop');">
-					<div class="hero-overlay"></div>
-					<div class="container hero-content">
-						<h1>Driving Economic <br>Growth & Resilience</h1>
-						<p>Investing across sectors to build a sustainable future.</p>
-						<a href="<?php echo esc_url( home_url( '/portfolio' ) ); ?>" class="btn">View Portfolio</a>
-					</div>
-				</div>
+	<!-- 1. Hero Section (Video Background) -->
+	<section class="hero-video-section">
+		<div class="video-background">
+			<iframe src="https://player.vimeo.com/video/1156402689?h=d91c9cb20b&badge=0&autopause=0&player_id=0&app_id=58479&background=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<div class="hero-overlay-gradient"></div>
+		
+		<div class="container hero-video-content">
+			<h1 class="hero-main-title">Building Dynamic<br>Value Networks.</h1>
+		</div>
+
+		<div class="hero-bottom-bar container">
+			<div class="hero-ticker">
+				<iframe src="https://tools.eurolandir.com/tools/ticker/html/?companycode=ae-asmak&v=static1&lang=en-gb" width="200" height="25" frameborder="0" scrolling="no"></iframe>
 			</div>
-			<!-- Add Pagination -->
-			<div class="swiper-pagination"></div>
-			<!-- Add Navigation -->
-			<div class="swiper-button-next"></div>
-			<div class="swiper-button-prev"></div>
+			<div class="hero-news-excerpt">
+				<p>Adani Enterprises and IHC Group Company IRH to form a 50:50 Joint Venture for USD 11.5 Billion Aluminium Project, Positioning Odisha in the Global Aluminium Supply Chain</p>
+			</div>
+			<div class="hero-news-thumb">
+				<img src="https://images.unsplash.com/photo-1556761175-5973dc0f32d7?q=80&w=300&auto=format&fit=crop" alt="News Thumbnail">
+			</div>
+		</div>
+		
+		<div class="hero-slider-dots">
+			<span class="dot-num">02</span>
+			<span class="dot-line"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
 		</div>
 	</section>
 
-	<!-- 2. Our Purpose / About Section -->
-	<section class="section purpose-section">
+	<!-- 2. About Section (One of the world's...) -->
+	<section class="section about-hero-section">
 		<div class="container">
-			<div class="grid grid-2 align-center">
-				<div>
-					<h2 class="section-title" style="text-align: left;">Our Purpose</h2>
-					<p class="purpose-text">
-						We create sustainable value for our stakeholders by investing in dynamic and resilient businesses. Our focus is on fostering innovation, empowering communities, and driving economic growth across the region and beyond.
+			<h2 class="about-hero-title">One of the world's largest investment<br>companies</h2>
+			
+			<div class="about-grid">
+				<div class="about-col-left">
+					<p class="about-label">• Who We Are</p>
+				</div>
+				<div class="about-col-mid">
+					<p class="about-text">
+						Since its founding in 1999, IHC has become one of the largest investment companies in the world. But IHC is far more - we are a forward-thinking, proactive investment leader, creating dynamic value networks that go beyond the traditional holding company model, to represent a new generation of investors.
 					</p>
+					<a href="<?php echo esc_url( home_url( '/about' ) ); ?>" class="btn-outline">About Us &nbsp; &rsaquo;</a>
 				</div>
-				<div>
-					<img src="https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/79a55e3e-331f-4cc7-8721-4b1dc85808b0" alt="IHC Purpose" style="width: 100%; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+				<div class="about-col-right">
+					<img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800&auto=format&fit=crop" alt="IHC Building" class="about-building-img">
 				</div>
 			</div>
-		</div>
-	</section>
 
-	<!-- 3. Key Stats / Financial Highlights -->
-	<section class="section stats-section">
-		<div class="container">
-			<h2 class="section-title" style="color: #fff;">Financial Highlights 2026</h2>
-			<div class="grid grid-3">
-				<div class="stat-item">
-					<h3>31.4 B</h3>
-					<p>Revenue (AED)</p>
+			<div class="stats-row">
+				<div class="stat-block">
+					<p class="stat-label">Market Capitalization</p>
+					<h3 class="stat-value">AED 855 bn</h3>
 				</div>
-				<div class="stat-item">
-					<h3>8.2 B</h3>
-					<p>Net Profit (AED)</p>
+				<div class="stat-block">
+					<p class="stat-label">Subsidiaries</p>
+					<h3 class="stat-value">1,300+</h3>
 				</div>
-				<div class="stat-item">
-					<h3>900+</h3>
-					<p>Subsidiaries</p>
+				<div class="stat-block">
+					<p class="stat-label">JVs & Associates</p>
+					<h3 class="stat-value">85+</h3>
 				</div>
 			</div>
 		</div>
