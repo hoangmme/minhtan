@@ -13,7 +13,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
 
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -22,7 +22,7 @@
             theme: {
                 extend: {
                     fontFamily: {
-                        cairo: ['Cairo', 'sans-serif'],
+                        cairo: ['Outfit', 'sans-serif'],
                     },
                     colors: {
                         black: '#000000',
@@ -54,7 +54,7 @@
 
     <style>
         body {
-            font-family: 'Cairo', sans-serif;
+            font-family: 'Outfit', sans-serif;
             background-color: #FFFFFF;
             color: #111111;
         }
