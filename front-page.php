@@ -22,8 +22,9 @@ get_header(); ?>
                 </a>
             </div>
             <div class="w-full h-[50vh] md:h-[75vh] overflow-hidden">
-                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop"
-                    alt="Corporate Building" class="w-full h-full object-cover sharp-img">
+                <video autoplay loop muted playsinline class="w-full h-full object-cover">
+                    <source src="https://assets.mixkit.co/videos/preview/mixkit-skyscrapers-of-a-city-business-district-41123-large.mp4" type="video/mp4">
+                </video>
             </div>
         </div>
     </section>
