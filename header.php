@@ -100,6 +100,142 @@ document.addEventListener('DOMContentLoaded',Â functionÂ ()Â {
 .social-n::after, .news-n::after { content: "→"; font-size: 16px; }
 </style>
 
+
+<style>
+/* --- Layout Fixes --- */
+
+/* Add the top border above Who We Are */
+.c1q2hqau.c1iamfq5 > .w-box.c12us6ke {
+    border-top: 1px solid #e5e5e5;
+    padding-top: 40px !important;
+    margin-top: 40px !important;
+}
+
+/* Fix "Who We Are" dot alignment */
+.c1737gfp.c12oqnat.c18ct2vs {
+    font-weight: 600;
+}
+.c1iamfq5.ctsmnf7 {
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+}
+/* Bullet dot */
+.c1ofoyjz.ckglpyf.c3fk6un {
+    width: 6px !important;
+    height: 6px !important;
+    background-color: #000 !important;
+    border-radius: 50% !important;
+    display: inline-block !important;
+}
+
+/* Fix grid/flex layout for Who We Are section */
+.cmc3brt.c1cjiv0r.cs3svqt.czv6l91 {
+    display: grid !important;
+    grid-template-columns: 1fr 2fr 1.5fr !important;
+    gap: 40px !important;
+    align-items: start !important;
+}
+
+/* Fix paragraph typography */
+.custom-description p {
+    font-size: 28px !important;
+    line-height: 1.4 !important;
+    color: #333 !important;
+    font-weight: 300 !important;
+    margin-bottom: 40px !important;
+}
+
+/* Fix About Us button */
+a.w-link.c8rc77a {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+    padding: 12px 24px !important;
+    border: 1px solid #e5e5e5 !important;
+    border-radius: 30px !important;
+    text-decoration: none !important;
+    color: #000 !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    margin-bottom: 60px !important;
+}
+a.w-link.c8rc77a:hover {
+    background: #000 !important;
+    color: #fff !important;
+}
+a.w-link.c8rc77a .w-box.cth07qy {
+    display: inline-block !important;
+    width: 8px !important;
+    height: 8px !important;
+    border-top: 2px solid currentColor !important;
+    border-right: 2px solid currentColor !important;
+    transform: rotate(45deg) !important;
+    margin-left: 5px !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+}
+
+/* Stats Section Fixes */
+#market-cap-subsidiaries-associates {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 30px !important;
+    margin-top: 60px !important;
+    margin-bottom: 40px !important;
+    width: 100% !important;
+}
+
+/* For mobile stats */
+@media (max-width: 768px) {
+    #market-cap-subsidiaries-associates {
+        grid-template-columns: 1fr !important;
+        gap: 40px !important;
+    }
+    .cmc3brt.c1cjiv0r.cs3svqt.czv6l91 {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+.custom-label.w-text {
+    font-size: 14px !important;
+    color: #888 !important;
+    margin-bottom: 15px !important;
+    text-transform: capitalize !important;
+}
+
+.custom-heading.w-heading {
+    font-size: 48px !important;
+    font-weight: 300 !important;
+    color: #111 !important;
+    margin: 0 !important;
+}
+
+/* Fix container constraints */
+.w-box.c12us6ke {
+    max-width: 1400px !important;
+    margin: 0 auto !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+
+/* Fix building image */
+.w-image.c1rcq9ql {
+    border-radius: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover !important;
+}
+
+/* Fix Hero section alignment */
+.cmc3brt.c1cjiv0r.c1akj0so.cs3svqt.c1xfros2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+</style>
+
 <?php wp_head(); ?>
 </head><body dir="ltr" class="w-element"><div class="w-html-embed"><!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GB7KQL8JG2" type="text/javascript"></script>
