@@ -13,7 +13,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -22,8 +22,8 @@
             theme: {
                 extend: {
                     fontFamily: {
-                        sans: ['"Be Vietnam Pro"', 'sans-serif'],
-                        cairo: ['"Be Vietnam Pro"', 'sans-serif'],
+                        sans: ["Inter", 'sans-serif'],
+                        cairo: ["Inter", 'sans-serif'],
                     },
                     colors: {
                         black: '#000000',
@@ -55,7 +55,7 @@
 
     <style>
         body {
-            font-family: 'Be Vietnam Pro', sans-serif;
+            font-family: 'Inter', sans-serif;
             background-color: #FFFFFF;
             color: #111111;
         }
