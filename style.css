@@ -321,3 +321,103 @@ ul {
 .footer-widget a { color: #aaa; transition: color 0.3s; }
 .footer-widget a:hover { color: #fff; }
 .footer-bottom { text-align: center; padding-top: 30px; border-top: 1px solid rgba(255,255,255,0.1); color: #777; font-size: 0.9rem; }
+
+/* Split Sections (Financial Results & MIITE) */
+.bg-white {
+    background-color: #ffffff;
+}
+.split-section {
+    padding: 100px 0;
+}
+.split-title {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.1;
+    color: #111;
+    margin-bottom: 30px;
+}
+.title-underline {
+    width: 60px;
+    height: 4px;
+    background-color: var(--accent-color);
+    margin-bottom: 30px;
+}
+.split-text p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+.split-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+/* Social Media Section */
+.social-section {
+    padding: 100px 0;
+    overflow: hidden;
+}
+.social-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.social-nav {
+    display: flex;
+    gap: 15px;
+}
+.social-nav button {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #111;
+    color: #fff;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+.social-nav button:hover {
+    background-color: var(--accent-color);
+}
+.swiper-social-media .swiper-slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Slider Navigation */
+.social-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.social-nav {
+    display: flex;
+    gap: 10px;
+}
+.social-prev, .social-next, .news-prev, .news-next {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #0b1a2d;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.social-prev:hover, .social-next:hover, .news-prev:hover, .news-next:hover {
+    background-color: #c99b50;
+}
