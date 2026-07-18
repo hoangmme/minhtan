@@ -22,6 +22,7 @@
             theme: {
                 extend: {
                     fontFamily: {
+                        sans: ['Be Vietnam Pro', 'sans-serif'],
                         cairo: ['Be Vietnam Pro', 'sans-serif'],
                     },
                     colors: {
