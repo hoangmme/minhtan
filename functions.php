@@ -51,7 +51,7 @@ function ihcu_scripts() {
 	wp_enqueue_style( 'swiper-css', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css', array(), '11.0.0' );
 
 	// Main Style
-	wp_enqueue_style( 'ihcu-style', get_stylesheet_uri(), array(), '1.0.0' );
+	wp_enqueue_style( 'ihcu-style', get_stylesheet_uri(), array(), filemtime( get_stylesheet_directory() . '/style.css' ) );
 
 	// Swiper JS
 	wp_enqueue_script( 'swiper-js', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js', array(), '11.0.0', true );
