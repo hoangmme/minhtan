@@ -10,15 +10,14 @@ get_header(); ?>
         <div class="max-w-ihcContainer mx-auto px-5 md:px-10">
             <div class="max-w-4xl mb-16 md:mb-24">
                 <h1 class="text-[48px] md:text-[72px] font-light leading-ihcTitle tracking-ihc text-dark mb-8">
-                    Scaling businesses.<br> Shaping the future.
+                    Mở rộng doanh nghiệp.<br> Định hình tương lai.
                 </h1>
                 <p class="text-[24px] md:text-[28px] font-light text-mediumGray leading-ihcPara mb-10 max-w-3xl">
-                    A premier global investment holding company, driving sustainable growth and long-term value across
-                    diverse sectors.
+                    Một tập đoàn đầu tư toàn cầu hàng đầu, thúc đẩy tăng trưởng bền vững và giá trị dài hạn trên nhiều lĩnh vực.
                 </p>
                 <a href="#about"
                     class="inline-flex items-center gap-3 px-6 py-3 border border-black/10 rounded-[100vw] text-dark bg-transparent hover:bg-black hover:text-white transition-all duration-300 text-lg">
-                    Explore Our Holdings
+                    Khám Phá Các Khoản Đầu Tư
                     <span class="css-arrow down"></span>
                 </a>
             </div>
@@ -39,30 +38,26 @@ get_header(); ?>
             <div class="grid grid-cols-1 md:grid-cols-12 gap-10">
                 <div class="md:col-span-4">
                     <h4 class="text-[14px] md:text-[16px] font-semibold text-labelGray uppercase tracking-wider">
-                        Company Overview
+                        Tổng Quan Công Ty
                     </h4>
                 </div>
                 <div class="md:col-span-8">
                     <h2 class="text-[36px] md:text-[56px] font-light leading-ihcTitle tracking-ihc text-dark mb-8">
-                        We deploy capital strategically to build dominant market leaders and resilient enterprises.
+                        Chúng tôi triển khai vốn có chiến lược để xây dựng các doanh nghiệp dẫn đầu thị trường và kiên cường.
                     </h2>
                     <p class="text-[20px] md:text-[24px] font-light text-mediumGray leading-ihcPara mb-10">
-                        Founded with a vision to diversify and grow the economic landscape, our holding structure allows
-                        us to be agile operators and patient investors. We partner with exceptional management teams to
-                        unlock operational efficiencies and scale businesses globally.
+                        Được thành lập với tầm nhìn đa dạng hóa và phát triển bối cảnh kinh tế, cấu trúc tập đoàn cho phép chúng tôi trở thành những nhà điều hành linh hoạt và nhà đầu tư kiên nhẫn. Chúng tôi hợp tác với các đội ngũ quản lý xuất sắc để tối ưu hiệu quả hoạt động và mở rộng quy mô doanh nghiệp trên toàn cầu.
                     </p>
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 pt-8 border-t border-borderColor">
                         <div>
-                            <h5 class="text-[14px] font-semibold text-dark uppercase tracking-wider mb-2">Our Vision
+                            <h5 class="text-[14px] font-semibold text-dark uppercase tracking-wider mb-2">Tầm Nhìn
                             </h5>
-                            <p class="text-mediumGray font-light text-lg">To be the most trusted and impactful
-                                investment conglomerate globally.</p>
+                            <p class="text-mediumGray font-light text-lg">Trở thành tập đoàn đầu tư uy tín và có tầm ảnh hưởng lớn nhất toàn cầu.</p>
                         </div>
                         <div>
-                            <h5 class="text-[14px] font-semibold text-dark uppercase tracking-wider mb-2">Our Mission
+                            <h5 class="text-[14px] font-semibold text-dark uppercase tracking-wider mb-2">Sứ Mệnh
                             </h5>
-                            <p class="text-mediumGray font-light text-lg">Delivering sustainable returns by investing in
-                                transformative industries.</p>
+                            <p class="text-mediumGray font-light text-lg">Mang lại lợi nhuận bền vững bằng cách đầu tư vào các ngành công nghiệp chuyển đổi.</p>
                         </div>
                     </div>
                 </div>
@@ -86,13 +81,13 @@ get_header(); ?>
                 </div>
                 <div>
                     <h4 class="text-[14px] md:text-[16px] font-semibold text-labelGray uppercase tracking-wider mb-2">
-                        Total Assets</h4>
+                        Tổng Tài Sản</h4>
                     <div class="text-[48px] md:text-[60px] font-light text-dark leading-none tracking-ihc">AED 228 bn
                     </div>
                 </div>
                 <div>
                     <h4 class="text-[14px] md:text-[16px] font-semibold text-labelGray uppercase tracking-wider mb-2">
-                        Revenue (FY 2023)</h4>
+                        Doanh Thu (Năm 2023)</h4>
                     <div class="text-[48px] md:text-[60px] font-light text-dark leading-none tracking-ihc">AED 60.1 bn
                     </div>
                 </div>
@@ -104,7 +99,7 @@ get_header(); ?>
     <section class="py-sectionMobile md:py-sectionDesktop">
         <div class="max-w-ihcContainer mx-auto px-5 md:px-10">
             <h2 class="text-[48px] md:text-[72px] font-light leading-ihcTitle tracking-ihc text-dark mb-16">
-                Strategic Sectors
+                Lĩnh Vực Chiến Lược
             </h2>
             <div class="flex flex-col border-t border-black">
                 <!-- Sector Item -->
@@ -112,12 +107,12 @@ get_header(); ?>
                     class="group flex flex-col md:flex-row justify-between md:items-center py-8 border-b border-borderColor hover-row transition-colors px-4">
                     <div class="flex items-center gap-8 mb-4 md:mb-0">
                         <span class="text-[16px] font-semibold text-labelGray">01</span>
-                        <h3 class="text-[32px] md:text-[40px] font-light tracking-ihc text-dark">Real Estate &
-                            Construction</h3>
+                        <h3 class="text-[32px] md:text-[40px] font-light tracking-ihc text-dark">Bất Động Sản &
+                            Xây Dựng</h3>
                     </div>
                     <div class="flex items-center gap-6">
-                        <p class="text-lg font-light text-mediumGray hidden md:block max-w-md">Developing mega-projects
-                            and sustainable urban infrastructure.</p>
+                        <p class="text-lg font-light text-mediumGray hidden md:block max-w-md">Phát triển các siêu dự án
+                            và hạ tầng đô thị bền vững.</p>
                         <div
                             class="w-10 h-10 rounded-full border border-borderColor flex items-center justify-center group-hover:bg-black group-hover:text-white transition-all">
                             <span class="css-arrow"></span></div>
@@ -131,8 +126,8 @@ get_header(); ?>
                         <h3 class="text-[32px] md:text-[40px] font-light tracking-ihc text-dark">Chăm Sóc Sức Khỏe</h3>
                     </div>
                     <div class="flex items-center gap-6">
-                        <p class="text-lg font-light text-mediumGray hidden md:block max-w-md">Advancing medical
-                            technologies and world-class care facilities.</p>
+                        <p class="text-lg font-light text-mediumGray hidden md:block max-w-md">Thúc đẩy công nghệ y tế
+                            và các cơ sở chăm sóc tiêu chuẩn quốc tế.</p>
                         <div
                             class="w-10 h-10 rounded-full border border-borderColor flex items-center justify-center group-hover:bg-black group-hover:text-white transition-all">
                             <span class="css-arrow"></span></div>
@@ -146,8 +141,8 @@ get_header(); ?>
                         <h3 class="text-[32px] md:text-[40px] font-light tracking-ihc text-dark">Công Nghệ & AI</h3>
                     </div>
                     <div class="flex items-center gap-6">
-                        <p class="text-lg font-light text-mediumGray hidden md:block max-w-md">Investing in deep tech,
-                            cybersecurity, and data transformation.</p>
+                        <p class="text-lg font-light text-mediumGray hidden md:block max-w-md">Đầu tư vào công nghệ chuyên sâu,
+                            an ninh mạng và chuyển đổi dữ liệu.</p>
                         <div
                             class="w-10 h-10 rounded-full border border-borderColor flex items-center justify-center group-hover:bg-black group-hover:text-white transition-all">
                             <span class="css-arrow"></span></div>
@@ -161,8 +156,8 @@ get_header(); ?>
                         <h3 class="text-[32px] md:text-[40px] font-light tracking-ihc text-dark">Nông Nghiệp & Thực Phẩm</h3>
                     </div>
                     <div class="flex items-center gap-6">
-                        <p class="text-lg font-light text-mediumGray hidden md:block max-w-md">Securing supply chains
-                            and sustainable agri-tech innovations.</p>
+                        <p class="text-lg font-light text-mediumGray hidden md:block max-w-md">Đảm bảo chuỗi cung ứng
+                            và những đổi mới công nghệ nông nghiệp bền vững.</p>
                         <div
                             class="w-10 h-10 rounded-full border border-borderColor flex items-center justify-center group-hover:bg-black group-hover:text-white transition-all">
                             <span class="css-arrow"></span></div>
@@ -176,11 +171,11 @@ get_header(); ?>
     <section id="portfolio" class="py-sectionMobile md:py-sectionDesktop bg-lightGray">
         <div class="max-w-ihcContainer mx-auto px-5 md:px-10">
             <div class="flex justify-between items-end mb-16">
-                <h2 class="text-[48px] md:text-[72px] font-light leading-ihcTitle tracking-ihc text-dark">Featured
-                    Portfolio</h2>
+                <h2 class="text-[48px] md:text-[72px] font-light leading-ihcTitle tracking-ihc text-dark">Danh Mục
+                    Nổi Bật</h2>
                 <a href="#"
                     class="hidden md:inline-flex items-center gap-3 px-6 py-3 border border-black/10 rounded-[100vw] text-dark bg-transparent hover:bg-black hover:text-white transition-all duration-300 text-lg">
-                    View All Assets <span class="css-arrow"></span>
+                    Xem Tất Cả Tài Sản <span class="css-arrow"></span>
                 </a>
             </div>
 
@@ -194,7 +189,7 @@ get_header(); ?>
                     <div class="flex justify-between items-start">
                         <div>
                             <h3 class="text-[28px] font-light text-dark tracking-ihc">Alpha Real Estate</h3>
-                            <p class="text-[16px] text-labelGray font-semibold uppercase tracking-wider mt-1">Property
+                            <p class="text-[16px] text-labelGray font-semibold uppercase tracking-wider mt-1">Bất Động Sản
                             </p>
                         </div>
                         <span class="css-arrow mt-3"></span>
@@ -235,7 +230,7 @@ get_header(); ?>
             <div class="mt-10 md:hidden">
                 <a href="#"
                     class="inline-flex items-center gap-3 px-6 py-3 border border-black/10 rounded-[100vw] text-dark bg-transparent hover:bg-black hover:text-white transition-all duration-300 text-lg w-full justify-center">
-                    View All Assets <span class="css-arrow"></span>
+                    Xem Tất Cả Tài Sản <span class="css-arrow"></span>
                 </a>
             </div>
         </div>
@@ -246,7 +241,7 @@ get_header(); ?>
         <div class="max-w-ihcContainer mx-auto px-5 md:px-10">
             <h2
                 class="text-[48px] md:text-[72px] font-light leading-ihcTitle tracking-ihc text-dark mb-16 text-center md:text-left">
-                Board of Directors
+                Hội Đồng Quản Trị
             </h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12">
                 <!-- Leader 1 -->
@@ -254,31 +249,31 @@ get_header(); ?>
                     <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1974&auto=format&fit=crop"
                         class="w-full aspect-[3/4] object-cover sharp-img grayscale hover:grayscale-0 transition-all duration-500 mb-6">
                     <h3 class="text-[24px] font-light text-dark tracking-ihc">H.E. Syed Basar</h3>
-                    <p class="text-[14px] text-labelGray font-semibold uppercase tracking-wider mt-1">Chairman</p>
+                    <p class="text-[14px] text-labelGray font-semibold uppercase tracking-wider mt-1">Chủ Tịch</p>
                 </div>
                 <!-- Leader 2 -->
                 <div>
                     <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1976&auto=format&fit=crop"
                         class="w-full aspect-[3/4] object-cover sharp-img grayscale hover:grayscale-0 transition-all duration-500 mb-6">
                     <h3 class="text-[24px] font-light text-dark tracking-ihc">Sofia Al-Fayed</h3>
-                    <p class="text-[14px] text-labelGray font-semibold uppercase tracking-wider mt-1">Chief Executive
-                        Officer</p>
+                    <p class="text-[14px] text-labelGray font-semibold uppercase tracking-wider mt-1">Giám Đốc
+                        Điều Hành</p>
                 </div>
                 <!-- Leader 3 -->
                 <div>
                     <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1974&auto=format&fit=crop"
                         class="w-full aspect-[3/4] object-cover sharp-img grayscale hover:grayscale-0 transition-all duration-500 mb-6">
                     <h3 class="text-[24px] font-light text-dark tracking-ihc">Omar Tariq</h3>
-                    <p class="text-[14px] text-labelGray font-semibold uppercase tracking-wider mt-1">Chief Financial
-                        Officer</p>
+                    <p class="text-[14px] text-labelGray font-semibold uppercase tracking-wider mt-1">Giám Đốc
+                        Tài Chính</p>
                 </div>
                 <!-- Leader 4 -->
                 <div>
                     <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop"
                         class="w-full aspect-[3/4] object-cover sharp-img grayscale hover:grayscale-0 transition-all duration-500 mb-6">
                     <h3 class="text-[24px] font-light text-dark tracking-ihc">David Chen</h3>
-                    <p class="text-[14px] text-labelGray font-semibold uppercase tracking-wider mt-1">Head of
-                        Investments</p>
+                    <p class="text-[14px] text-labelGray font-semibold uppercase tracking-wider mt-1">Trưởng Bộ Phận
+                        Đầu Tư</p>
                 </div>
             </div>
         </div>
@@ -293,19 +288,17 @@ get_header(); ?>
                         class="w-full h-full object-cover sharp-img opacity-90">
                 </div>
                 <div class="md:pl-10 order-1 md:order-2">
-                    <h4 class="text-[14px] md:text-[16px] font-semibold text-white/50 uppercase tracking-wider mb-6">ESG
-                        Commitment</h4>
+                    <h4 class="text-[14px] md:text-[16px] font-semibold text-white/50 uppercase tracking-wider mb-6">Cam Kết
+                        ESG</h4>
                     <h2 class="text-[48px] md:text-[72px] font-light leading-ihcTitle tracking-ihc mb-8 text-white">
-                        Investing in a sustainable future.
+                        Đầu tư vào một tương lai bền vững.
                     </h2>
                     <p class="text-[24px] md:text-[28px] font-light text-white/80 leading-ihcPara mb-10">
-                        We integrate environmental, social, and governance frameworks into our investment lifecycle,
-                        ensuring our portfolio companies generate not just financial returns, but positive global
-                        impact.
+                        Chúng tôi tích hợp các khuôn khổ môi trường, xã hội và quản trị (ESG) vào vòng đời đầu tư, đảm bảo các công ty trong danh mục không chỉ mang lại lợi nhuận tài chính mà còn tạo ra tác động tích cực toàn cầu.
                     </p>
                     <a href="#"
                         class="inline-flex items-center gap-3 px-6 py-3 border border-white/30 rounded-[100vw] text-white bg-transparent hover:bg-white hover:text-dark transition-all duration-300 text-lg">
-                        Read ESG Report
+                        Đọc Báo Cáo ESG
                         <span class="css-arrow"></span>
                     </a>
                 </div>
@@ -322,7 +315,7 @@ get_header(); ?>
                         Quan Hệ Nhà Đầu Tư
                     </h4>
                     <h2 class="text-[48px] md:text-[72px] font-light leading-ihcTitle tracking-ihc text-dark mb-8">
-                        Financial <br> Transparency.
+                        Minh Bạch <br> Tài Chính.
                     </h2>
 
                     <!-- Fake Stock Ticker -->
@@ -344,28 +337,28 @@ get_header(); ?>
                     <div class="flex flex-col border-t border-black">
                         <a href="#"
                             class="group flex justify-between items-center py-6 border-b border-borderColor hover-row px-4">
-                            <span class="text-[20px] md:text-[24px] font-light text-dark">Annual Report 2023</span>
+                            <span class="text-[20px] md:text-[24px] font-light text-dark">Báo Cáo Thường Niên 2023</span>
                             <span
                                 class="text-[14px] font-semibold text-labelGray group-hover:text-dark transition-colors uppercase tracking-wider flex items-center gap-2">
-                                Download PDF <span class="css-arrow down mb-0 mt-1"></span>
+                                Tải Xuống PDF <span class="css-arrow down mb-0 mt-1"></span>
                             </span>
                         </a>
                         <a href="#"
                             class="group flex justify-between items-center py-6 border-b border-borderColor hover-row px-4">
-                            <span class="text-[20px] md:text-[24px] font-light text-dark">Q1 2024 Financial
-                                Results</span>
+                            <span class="text-[20px] md:text-[24px] font-light text-dark">Kết Quả Tài Chính
+                                Q1/2024</span>
                             <span
                                 class="text-[14px] font-semibold text-labelGray group-hover:text-dark transition-colors uppercase tracking-wider flex items-center gap-2">
-                                Download PDF <span class="css-arrow down mb-0 mt-1"></span>
+                                Tải Xuống PDF <span class="css-arrow down mb-0 mt-1"></span>
                             </span>
                         </a>
                         <a href="#"
                             class="group flex justify-between items-center py-6 border-b border-borderColor hover-row px-4">
-                            <span class="text-[20px] md:text-[24px] font-light text-dark">Corporate Governance
-                                Manual</span>
+                            <span class="text-[20px] md:text-[24px] font-light text-dark">Cẩm Nang Quản Trị
+                                Doanh Nghiệp</span>
                             <span
                                 class="text-[14px] font-semibold text-labelGray group-hover:text-dark transition-colors uppercase tracking-wider flex items-center gap-2">
-                                Download PDF <span class="css-arrow down mb-0 mt-1"></span>
+                                Tải Xuống PDF <span class="css-arrow down mb-0 mt-1"></span>
                             </span>
                         </a>
                     </div>
@@ -447,9 +440,7 @@ get_header(); ?>
                             Chiến lược đầu tư chính là gì?
                             <span class="text-2xl transition group-open:rotate-45">+</span>
                         </summary>
-                        <p class="text-mediumGray font-light mt-4 text-lg">We focus on strategic, long-term investments
-                            in high-growth sectors, taking controlling or significant minority stakes to actively drive
-                            value creation.</p>
+                        <p class="text-mediumGray font-light mt-4 text-lg">Chúng tôi tập trung vào các khoản đầu tư chiến lược, dài hạn trong các lĩnh vực tăng trưởng cao, nắm giữ cổ phần chi phối hoặc thiểu số đáng kể để chủ động tạo ra giá trị.</p>
                     </details>
                     <details class="group py-6 border-b border-borderColor cursor-pointer">
                         <summary
@@ -457,8 +448,7 @@ get_header(); ?>
                             Làm thế nào để liên hệ Quan hệ Nhà đầu tư?
                             <span class="text-2xl transition group-open:rotate-45">+</span>
                         </summary>
-                        <p class="text-mediumGray font-light mt-4 text-lg">Please email ir@company.com or fill out the
-                            contact form below. Our team aims to respond to all shareholder inquiries within 48 hours.
+                        <p class="text-mediumGray font-light mt-4 text-lg">Vui lòng gửi email đến ir@company.com hoặc điền vào biểu mẫu liên hệ bên dưới. Đội ngũ của chúng tôi đặt mục tiêu phản hồi mọi thắc mắc của cổ đông trong vòng 48 giờ.
                         </p>
                     </details>
                     <details class="group py-6 border-b border-borderColor cursor-pointer">
@@ -467,9 +457,7 @@ get_header(); ?>
                             Trụ sở chính của công ty nằm ở đâu?
                             <span class="text-2xl transition group-open:rotate-45">+</span>
                         </summary>
-                        <p class="text-mediumGray font-light mt-4 text-lg">Our global headquarters is situated in the
-                            financial district of Abu Dhabi, with regional offices spanning across Europe, Asia, and the
-                            Americas.</p>
+                        <p class="text-mediumGray font-light mt-4 text-lg">Trụ sở chính toàn cầu của chúng tôi đặt tại khu tài chính của Abu Dhabi, cùng với các văn phòng khu vực trải dài trên khắp châu Âu, châu Á và châu Mỹ.</p>
                     </details>
                 </div>
             </div>
@@ -487,7 +475,7 @@ get_header(); ?>
             </p>
             <a href="#"
                 class="inline-flex items-center gap-3 px-8 py-4 border border-transparent rounded-[100vw] text-dark bg-white hover:bg-lightGray transition-all duration-300 text-xl font-medium">
-                Liên Hệ Now
+                Liên Hệ Ngay
                 <span class="css-arrow"></span>
             </a>
         </div>
