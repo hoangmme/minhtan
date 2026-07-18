@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying the front page
+ * Template Name: Trang chủ IHC
  *
  * @package ihcu
  */

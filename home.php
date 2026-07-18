@@ -1,6 +1,6 @@
 <?php
 /**
- * The main template file / Blog Index / Newsroom
+ * Template Name: Trang Tin Tức Chung
  *
  * @package ihcu
  */
