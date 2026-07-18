@@ -13,7 +13,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -22,7 +22,7 @@
             theme: {
                 extend: {
                     fontFamily: {
-                        cairo: ['Outfit', 'sans-serif'],
+                        cairo: ['Be Vietnam Pro', 'sans-serif'],
                     },
                     colors: {
                         black: '#000000',
@@ -54,7 +54,7 @@
 
     <style>
         body {
-            font-family: 'Outfit', sans-serif;
+            font-family: 'Be Vietnam Pro', sans-serif;
             background-color: #FFFFFF;
             color: #111111;
         }
@@ -104,7 +104,10 @@
         }
     </style>
 <?php wp_head(); ?>
-</head>
+<style>
+        #primary-menu { display: flex; gap: 1.5rem; }
+    </style>
+    </head>
 
 <body class="antialiased selection:bg-dark selection:text-white" <?php body_class(); ?>>
 
@@ -115,12 +118,15 @@
                 IHC<span class="text-labelGray">.</span>
             </a>
             <div class="flex items-center gap-8">
-                <div class="hidden md:flex gap-6 text-sm font-semibold text-dark uppercase tracking-wider">
-                    <a href="#about" class="hover:text-labelGray transition-colors">About</a>
-                    <a href="#portfolio" class="hover:text-labelGray transition-colors">Portfolio</a>
-                    <a href="#ir" class="hover:text-labelGray transition-colors">Investors</a>
-                    <a href="#news" class="hover:text-labelGray transition-colors">News</a>
-                </div>
+                <?php
+                wp_nav_menu( array(
+                    'theme_location' => 'menu-1',
+                    'menu_id'        => 'primary-menu',
+                    'container'      => false,
+                    'menu_class'     => 'hidden md:flex gap-6 text-sm font-semibold text-dark uppercase tracking-wider',
+                    'fallback_cb'    => false,
+                ) );
+                ?>
                 <button
                     class="text-sm font-semibold text-dark uppercase tracking-wider hover:text-labelGray transition-colors">
                     Menu
