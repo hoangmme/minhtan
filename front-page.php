@@ -10,35 +10,135 @@ get_header();
 
 <main id="primary" class="site-main">
 
-	<!-- Hero Section -->
+	<!-- 1. Hero Section -->
 	<section class="hero" style="background-image: url('https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/4ddc9e41-16e6-4796-9f83-6e58740cfed3');">
 		<div class="container hero-content">
 			<h1>Shaping the Future <br>Through Strategic Investments</h1>
-			<p>International Holding Company is a fast-growing diversified holding company that is redefining the global marketplace.</p>
+			<p>A fast-growing diversified holding company that is redefining the global marketplace.</p>
 			<a href="<?php echo esc_url( home_url( '/who-we-are' ) ); ?>" class="btn">Discover Our Journey</a>
 		</div>
 	</section>
 
-	<!-- About Section -->
-	<section class="section about-section">
+	<!-- 2. Our Purpose / About Section -->
+	<section class="section purpose-section">
 		<div class="container">
-			<div class="grid grid-3 align-center">
-				<div class="about-text" style="grid-column: span 2;">
-					<h2 class="section-title" style="text-align: left;">Driving Economic Growth & Diversification</h2>
-					<p style="font-size: 1.1rem; color: #555; margin-bottom: 20px;">
-						At IHC, we are committed to building long-term value for our shareholders by investing in a diversified portfolio of innovative and dynamic businesses across key sectors of the economy.
+			<div class="grid grid-2 align-center">
+				<div>
+					<h2 class="section-title" style="text-align: left;">Our Purpose</h2>
+					<p class="purpose-text">
+						We create sustainable value for our stakeholders by investing in dynamic and resilient businesses. Our focus is on fostering innovation, empowering communities, and driving economic growth across the region and beyond.
 					</p>
-					<a href="<?php echo esc_url( home_url( '/what-we-do' ) ); ?>" class="read-more">Learn more about what we do &rarr;</a>
 				</div>
-				<div class="about-image">
-					<img src="https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/79a55e3e-331f-4cc7-8721-4b1dc85808b0" alt="IHC Building" style="width: 100%; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+				<div>
+					<img src="https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/79a55e3e-331f-4cc7-8721-4b1dc85808b0" alt="IHC Purpose" style="width: 100%; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<!-- Latest News Section -->
-	<section class="section latest-news-section" style="background-color: #fff;">
+	<!-- 3. Key Stats / Financial Highlights -->
+	<section class="section stats-section">
+		<div class="container">
+			<h2 class="section-title" style="color: #fff;">Financial Highlights 2026</h2>
+			<div class="grid grid-3">
+				<div class="stat-item">
+					<h3>31.4 B</h3>
+					<p>Revenue (AED)</p>
+				</div>
+				<div class="stat-item">
+					<h3>8.2 B</h3>
+					<p>Net Profit (AED)</p>
+				</div>
+				<div class="stat-item">
+					<h3>900+</h3>
+					<p>Subsidiaries</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- 4. Our Portfolio -->
+	<section class="section">
+		<div class="container">
+			<h2 class="section-title">Our Diverse Portfolio</h2>
+			<p class="section-subtitle">Spanning across critical sectors of the economy, our portfolio is built for resilience and long-term growth.</p>
+			
+			<div class="grid grid-3">
+				<!-- Portfolio Card 1 -->
+				<a href="#" class="portfolio-card">
+					<img src="https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/c4e4d1ab-809a-426f-a316-72204e3c49e0" alt="Real Estate">
+					<div class="portfolio-overlay">
+						<h3 class="portfolio-title">Real Estate & Construction</h3>
+					</div>
+				</a>
+				
+				<!-- Portfolio Card 2 -->
+				<a href="#" class="portfolio-card">
+					<img src="https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/39e16323-f3c0-4df8-9b06-9025b84a4621" alt="Healthcare">
+					<div class="portfolio-overlay">
+						<h3 class="portfolio-title">Healthcare</h3>
+					</div>
+				</a>
+				
+				<!-- Portfolio Card 3 -->
+				<a href="#" class="portfolio-card">
+					<img src="https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/da01c133-ef68-49e9-88b9-76165f7a6f26" alt="Food & Agriculture">
+					<div class="portfolio-overlay">
+						<h3 class="portfolio-title">Food & Agriculture</h3>
+					</div>
+				</a>
+				
+				<!-- Portfolio Card 4 -->
+				<a href="#" class="portfolio-card">
+					<img src="https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/79f73d18-e6df-422d-b5eb-c38a7e5d7d88" alt="Technology">
+					<div class="portfolio-overlay">
+						<h3 class="portfolio-title">Technology</h3>
+					</div>
+				</a>
+				
+				<!-- Portfolio Card 5 -->
+				<a href="#" class="portfolio-card">
+					<img src="https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/5dc4b8ea-2d85-46aa-8bee-d8aff8c2e180" alt="Marine">
+					<div class="portfolio-overlay">
+						<h3 class="portfolio-title">Marine & Dredging</h3>
+					</div>
+				</a>
+				
+				<!-- Portfolio Card 6 -->
+				<a href="#" class="portfolio-card">
+					<img src="https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/b09fddb6-8854-491d-9d1e-2c3e323554dd" alt="Capital">
+					<div class="portfolio-overlay">
+						<h3 class="portfolio-title">Capital & Investments</h3>
+					</div>
+				</a>
+			</div>
+			
+			<div style="text-align: center; margin-top: 50px;">
+				<a href="<?php echo esc_url( home_url( '/portfolio' ) ); ?>" class="btn">Explore All Sectors</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- 5. Leadership Message -->
+	<section class="section leadership-section">
+		<div class="container">
+			<div class="grid grid-2 align-center">
+				<div style="padding-right: 40px;">
+					<p class="leadership-quote">
+						"Our unwavering commitment to excellence and strategic vision continues to drive our momentum. As we expand our global footprint, we remain dedicated to creating value that transcends borders."
+					</p>
+					<p class="leadership-author">H.H. Sheikh Tahnoon bin Zayed Al Nahyan</p>
+					<p class="leadership-title">Chairman of IHC</p>
+				</div>
+				<div>
+					<img src="https://pub-a30c952d0179457fbf8fc3c73b51d5cf.r2.dev/image/7e0fe71d-e6b5-42dd-9a57-f46a056f682f" alt="Chairman" style="width: 100%; border-radius: 8px;">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- 6. Latest News Section -->
+	<section class="section latest-news-section">
 		<div class="container">
 			<h2 class="section-title">Latest Updates</h2>
 			<div class="grid grid-3">
@@ -68,7 +168,7 @@ get_header();
 								<div class="news-card-excerpt">
 									<?php echo wp_trim_words( get_the_excerpt(), 20, '...' ); ?>
 								</div>
-								<a href="<?php the_permalink(); ?>" class="read-more">Read More</a>
+								<a href="<?php the_permalink(); ?>" class="read-more">Read More &rarr;</a>
 							</div>
 						</article>
 						<?php
@@ -79,7 +179,7 @@ get_header();
 				endif;
 				?>
 			</div>
-			<div style="text-align: center; margin-top: 40px;">
+			<div style="text-align: center; margin-top: 50px;">
 				<a href="<?php echo esc_url( home_url( '/newsroom' ) ); ?>" class="btn">View All News</a>
 			</div>
 		</div>
