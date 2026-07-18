@@ -176,7 +176,7 @@ get_header(); ?>
                     Nổi Bật</h2>
                 <a href="#"
                     class="hidden md:inline-flex items-center gap-3 px-6 py-3 border border-black/10 rounded-[100vw] text-dark bg-transparent hover:bg-black hover:text-white transition-all duration-300 text-lg">
-                    Xem Tất Cả Tài Sản <span class="css-arrow"></span>
+                    Xem Tất Cả Danh Mục <span class="css-arrow"></span>
                 </a>
             </div>
 
@@ -231,7 +231,7 @@ get_header(); ?>
             <div class="mt-10 md:hidden">
                 <a href="#"
                     class="inline-flex items-center gap-3 px-6 py-3 border border-black/10 rounded-[100vw] text-dark bg-transparent hover:bg-black hover:text-white transition-all duration-300 text-lg w-full justify-center">
-                    Xem Tất Cả Tài Sản <span class="css-arrow"></span>
+                    Xem Tất Cả Danh Mục <span class="css-arrow"></span>
                 </a>
             </div>
         </div>

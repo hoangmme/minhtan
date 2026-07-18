@@ -112,7 +112,7 @@
     <!-- 1. HEADER -->
     <header class="w-full border-b border-borderColor py-6 sticky top-0 bg-white z-50">
         <div class="max-w-ihcContainer mx-auto px-5 md:px-10 flex justify-between items-center">
-            <a href="#" class="text-3xl font-normal tracking-ihc leading-none">
+            <a href="<?php echo esc_url( home_url( \'/\' ) ); ?>"  class="text-3xl font-normal tracking-ihc leading-none">
                 IHC<span class="text-labelGray">.</span>
             </a>
             <div class="flex items-center gap-8">
