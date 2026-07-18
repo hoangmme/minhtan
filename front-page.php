@@ -319,7 +319,7 @@ get_header(); ?>
             <div class="grid grid-cols-1 md:grid-cols-12 gap-10">
                 <div class="md:col-span-5">
                     <h4 class="text-[14px] md:text-[16px] font-semibold text-labelGray uppercase tracking-wider mb-6">
-                        Investor Relations
+                        Quan Hệ Nhà Đầu Tư
                     </h4>
                     <h2 class="text-[48px] md:text-[72px] font-light leading-ihcTitle tracking-ihc text-dark mb-8">
                         Financial <br> Transparency.
@@ -444,7 +444,7 @@ get_header(); ?>
                     <details class="group py-6 border-b border-borderColor cursor-pointer">
                         <summary
                             class="text-[20px] font-light text-dark list-none flex justify-between items-center font-cairo outline-none">
-                            What is the primary investment strategy?
+                            Chiến lược đầu tư chính là gì?
                             <span class="text-2xl transition group-open:rotate-45">+</span>
                         </summary>
                         <p class="text-mediumGray font-light mt-4 text-lg">We focus on strategic, long-term investments
@@ -454,7 +454,7 @@ get_header(); ?>
                     <details class="group py-6 border-b border-borderColor cursor-pointer">
                         <summary
                             class="text-[20px] font-light text-dark list-none flex justify-between items-center font-cairo outline-none">
-                            How do I contact Investor Relations?
+                            Làm thế nào để liên hệ Quan hệ Nhà đầu tư?
                             <span class="text-2xl transition group-open:rotate-45">+</span>
                         </summary>
                         <p class="text-mediumGray font-light mt-4 text-lg">Please email ir@company.com or fill out the
@@ -464,7 +464,7 @@ get_header(); ?>
                     <details class="group py-6 border-b border-borderColor cursor-pointer">
                         <summary
                             class="text-[20px] font-light text-dark list-none flex justify-between items-center font-cairo outline-none">
-                            Where are your headquarters located?
+                            Trụ sở chính của công ty nằm ở đâu?
                             <span class="text-2xl transition group-open:rotate-45">+</span>
                         </summary>
                         <p class="text-mediumGray font-light mt-4 text-lg">Our global headquarters is situated in the
@@ -480,14 +480,14 @@ get_header(); ?>
     <section class="py-[120px] bg-dark text-center px-5">
         <div class="max-w-3xl mx-auto">
             <h2 class="text-[48px] md:text-[72px] font-light leading-ihcTitle tracking-ihc text-white mb-8">
-                Ready to partner with us?
+                Sẵn sàng hợp tác với chúng tôi?
             </h2>
             <p class="text-[20px] font-light text-white/70 mb-10">
-                Connect with our team to explore investment opportunities, partnerships, or media inquiries.
+                Kết nối với đội ngũ của chúng tôi để khám phá cơ hội đầu tư, hợp tác chiến lược, hoặc liên hệ truyền thông.
             </p>
             <a href="#"
                 class="inline-flex items-center gap-3 px-8 py-4 border border-transparent rounded-[100vw] text-dark bg-white hover:bg-lightGray transition-all duration-300 text-xl font-medium">
-                Contact Us Now
+                Liên Hệ Now
                 <span class="css-arrow"></span>
             </a>
         </div>
