@@ -23,7 +23,7 @@ get_header(); ?>
             </div>
             <div class="w-full h-[50vh] md:h-[75vh] overflow-hidden">
                 <video autoplay loop muted playsinline class="w-full h-full object-cover">
-                    <source src="https://assets.mixkit.co/videos/preview/mixkit-skyscrapers-of-a-city-business-district-41123-large.mp4" type="video/mp4">
+                    <source src="https://videos.pexels.com/video-files/3121459/3121459-hd_1920_1080_24fps.mp4" type="video/mp4">
                 </video>
             </div>
         </div>
